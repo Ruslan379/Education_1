@@ -1,10 +1,6 @@
-/* -----------------------START----------------------------- */
-
-/* Install Fonts */
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f5ebd7;
-
 }
 
 /* ***************************************************************/
@@ -29,11 +25,6 @@ body {
     margin-bottom: 100px;
 }
 
-.section_header {
-    /* Другие стили */
-    /* font-style: normal;
-    border: 2px solid #3f51b5; */
-}
 
 .h2_header-style {
     /* font-style: normal;
