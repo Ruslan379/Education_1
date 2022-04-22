@@ -35,3 +35,23 @@ body {
 
     /* margin-bottom: 20px; */
 }
+
+.h3_header-style {
+    /* font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px; */
+    color: #2535c2;
+
+    /* margin-bottom: 20px; */
+}
+
+.task-word {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.21;
+    color: #97172d;
+
+    /* margin-bottom: 20px; */
+}

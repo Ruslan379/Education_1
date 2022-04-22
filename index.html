@@ -585,83 +585,522 @@
         <br>
         <br>
         <br>
+        <Section><h1 class="h1_header-style">============ А В Т О П Р О В Е Р К А ============</h1>
 
-        <H1>============ А В Т О П Р О В Е Р К А ============</H1>
+            <h2 class="h2_header-style">============ ЧТО ТАКОЕ HTML ТЕГ. ПАРНЫЙ ТЕГ. Задача 1/16 (исходник) ============</h2>
 
-        <!-- ==================================== -->
-        <!--  задача 4/16 -->
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-        <!-- ==================================== -->
-        <!-- ВЛОЖЕННОСТЬ ТЕГОВ задача 5/16 -->
-        <div class="buttons">
+            The main theme of the web page in the h1 header.
+                    
+            <h3 class="h3_header-style">============ задание 1 ============</h3>
+
+            <p class="task-word">Оберни текст тегом h1</p> 
+                  
+            <h3 class="h3_header-style">============ ОТВЕТ 1 ============</h3>
+            
+            <h1>The main theme of the web page in the h1 header.</h1>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ HTML КОММЕНТАРИЙ. Задача 2/16 (исходник) ============</h2>
+            
+            The commentary answers the question "Why is this part of the code written".
+
+            <h3 class="h3_header-style">============ задание 2 ============</h3>
+            
+            <p class="task-word">Напиши html комментарий с текстом: The commentary answers the question "Why is this part of the code written".</p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 2 ============</h3>
+            
+            <h1>&lt;!-- The commentary answers the question "Why is this part of the code written". --&gt;</h1>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ ОДИНОЧНЫЙ ТЕГ. Задача 3/16 (исходник) ============</h2>
+            
+            <p>&lt;img/&gt;</p> 
+            
+            <h3 class="h3_header-style">============ задание 3 ============</h3>
+            
+            <p class="task-word">
+                Напиши в теге img два обязательных и два необязательных атрибута<br /><br />
+            
+                Список атрибутов:<br /><br />
+            
+                src:   файл, расположенный по относительному пути /photo.jpg;<br />
+                alt:   текст с описанием изображения Image example;<br />
+                width:   ширина в 200 пикселей;<br />
+                height:   height в 150 пикселей.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 3 ============</h3>
+            
+            <img 
+                src="img/photo.jpg" 
+                alt="Image example" 
+                width="200" height="150"
+            >            
+            <br>
+            <br>
+            <br>
+            
+            
+            <h2 class="h2_header-style">============ ВЛОЖЕННОСТЬ ТЕГОВ. Задача 4/16 (исходник) ============</h2>
+
+            HTML CSS JavaScript
+ 
+            <h3 class="h3_header-style">============ задание 4 ============</h3>
+
+            <p class="task-word">
+                Используя теги ul и li перечисли 3 основные веб технологии. Порядок текста<br /> 
+                должен быть сохранен.
+            </p>
+
+            <h3 class="h3_header-style">============ ОТВЕТ 4 ============</h3>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            <br>
+            <br>
+            <br>
+
+            <h2 class="h2_header-style">============ ВЛОЖЕННОСТЬ ТЕГОВ. Задача 5/16 (исходник) ============</h2>
+            
             <button type="button" class="button">inline</button>
             <button type="button" class="button">block</button>
             <button type="button" class="button">inline-block</button>
-        </div>
-        <div class="buttons">
             <button type="button" class="button">HTML</button>
             <button type="button" class="button">CSS</button>
             <button type="button" class="button">JavaScript</button>
-        </div>
+            
+            <h3 class="h3_header-style">============ задание 5 ============</h3>
+            
+            <p class="task-word">
+                Оберни строчные теги button контейнерами div с классом buttons так, чтобы в <br />
+                двух рядах было по три кнопки и каждый ряд начинался с новой строки.<br />
+                
+                Порядок элементов button должен быть сохранен.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 5 ============</h3>
+            
+            <div class="buttons">
+                <button type="button" class="button">inline</button>
+                <button type="button" class="button">block</button>
+                <button type="button" class="button">inline-block</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class="button">HTML</button>
+                <button type="button" class="button">CSS</button>
+                <button type="button" class="button">JavaScript</button>
+            </div>
+            <br>
+            <br>
+            <br>
+        
 
-        <!-- <div> -->
-        <P></P>
-          <!-- </div> -->
+            <h2 class="h2_header-style">============ ВЛОЖЕННОСТЬ ТЕГОВ. Задача 6/16 (исходник) ============</h2>
+            
+            <div class="box">
+                <a href="#" class="link-inline">Text</a>
+                without line break
+            </div>
+            <div class="box">
+                <a href="#" class="link-block">Text</a>
+                with line break
+            </div>
+
+            <h3 class="h3_header-style">============ задание 6 ============</h3>
+            
+            <p class="task-word">
+                В исходном коде присутсвует две ссылки с одним и тем же контентом - строкой Текст.<br />
+                
+                У ссылок имеются названия классов - link-inline и link-block.<br />
+                
+                Для первой ссылки (с классом link-inline): оберни контент ссылки - строку Текст строчным тегом span .<br />
+                
+                Для второй ссылки (с классом link-block): оберни контент ссылки - строку Текст блочным тегом p для второй ссылки.<br />
+                
+                Визуально убедись, что к каждой из ссылок применилось свойство inline или block.<br />
+                
+                Порядок элементов a должен быть сохранен.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 6 ============</h3>
+            
+            <div class="box">
+                <a href="#" class="link-inline"><span class="link-inline">Text</span></a>
+                without line break
+            </div>
+            
+            <div class="box">
+                <a href="#" class="link-block"><p class="link-block">Text</p></a>
+                with line break
+            </div>
+            <br>
+            <br>
+            <br>
+
+          
+            <h2 class="h2_header-style">============ ПОТОК ДОКУМЕНТА. Задача 7/16 (исходник) ============</h2>
+            
+            <div class="card">
+                <h4 class="card-title">The order in which files are loaded by the browser</h4>
+                <ol reversed class="card-items">
+                    <li class="card-item">Link to files inside body</li>
+                    <li class="card-item">HTML file</li>
+                    <li class="card-item">Link to files inside head</li>
+                </ol>
+            </div>
+
+            <h3 class="h3_header-style">============ задание 7 ============</h3>
+            
+            <p class="task-word">
+                1. Исправьте порядок нумерации удалив атрибут тега ol.<br />
+
+                2. Расставь элементы li в нужном порядке согласно описанию<br />
+                последовательности загрузки. Номер 1 должен соответствовать
+                первому файлу,<br /> 
+                который будет загружен. Номер 2 - второму, номер 3 - третьему..
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 7 ============</h3>
+            
+            <div class="card">
+                <h4 class="card-title">The order in which files are loaded by the browser</h4>
+                <ol class="card-items">
+                    <li class="card-item">HTML file</li>
+                    <li class="card-item">Link to files inside head</li>
+                    <li class="card-item">Link to files inside body</li>
+                </ol>
+            </div>
+            <br>
+            <br>
+            <br>
 
 
-        <!-- ==================================== -->
-        <!-- ВЛОЖЕННОСТЬ ТЕГОВ задача 6/16 -->
+            <h2 class="h2_header-style">============ ГРУППИРОВКА ОДНОРОДНЫХ НАБОРОВ ТЕГОВ. Задача 8/16 (исходник) ============</h2>
+            
+            <h4 class="card-title">Card title 1</h4>
 
-        <div class="box">
-            <a href="#" class="link-inline"><span class="link-inline">Text</span></a>
-            without line break
-        </div>
+            <div class="wrp-img">
+                <img class="card-image" src="https://ac.goit.global/img/photo1.jpg" alt="image description" />
+            </div>
 
-        <div class="box">
-            <a href="#" class="link-block">
-                <p class="link-block">Text</p>
+            <p class="card-description">Description of the topic 1</p>
+            
+            <h4 class="card-title">Card title 2</h4>
+
+            <div class="wrp-img">
+                <img class="card-image" src="https://ac.goit.global/img/photo2.jpg" alt="image description" />
+            </div>
+
+            <p class="card-description">Description of the topic 2</p>
+            
+            <h4 class="card-title">Card title 3</h4>
+
+            <div class="wrp-img">
+                <img class="card-image" src="https://ac.goit.global/img/photo3.jpg" alt="image description" />
+            </div>
+
+            <p class="card-description">Description of the topic 3</p>
+
+        
+            <h3 class="h3_header-style">============ задание 8 ============</h3>
+            
+            <p class="task-word">
+                1. Сгруппируй наборы тегов с помощью списка ul и элементов li.<br />
+                2. Тег ul должен иметь класс со значением (существительное во множественном числе) cards.<br />
+                3. Тег li должен иметь класс со значением (существительное в единственном числе) card.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 8 ============</h3>
+                
+            <ul class="cards">
+
+                <li class="card">
+                    <h4 class="card-title">Card title 1</h4>
+                    <div class="wrp-img">
+                        <img class="card-image" src="https://ac.goit.global/img/photo1.jpg" alt="image description" />
+                    </div>
+                    <p class="card-description">Description of the topic 1</p>
+                </li>
+
+                <li class="card">
+                    <h4 class="card-title">Card title 2</h4>
+                    <div class="wrp-img">
+                        <img class="card-image" src="https://ac.goit.global/img/photo2.jpg" alt="image description" />
+                    </div>
+                    <p class="card-description">Description of the topic 2</p>
+                </li>
+
+
+                <li class="card">
+                    <h4 class="card-title">Card title 3</h4>
+                    <div class="wrp-img">
+                        <img class="card-image" src="https://ac.goit.global/img/photo3.jpg" alt="image description" />
+                    </div>
+                    <p class="card-description">Description of the topic 3</p>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ ССЫЛКА НА ВНЕШНИЙ РЕСУРС. Задача 9/16 (исходник) ============</h2>
+            
+            <a href="https://goit.global" target=""> GoIT </a>
+
+            <h3 class="h3_header-style">============ задание 9 ============</h3>
+            
+            <p class="task-word">
+                Ссылка должна открыться в новой вкладке. В целях безопасности надо разорвать связь между<br /> 
+                новой вкладкой и той вкладкой, где расположена ссылка.<br />
+                
+                Для этого добавь ссылке необходимые значения атрибутов target и rel.
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 9 ============</h3>
+            
+            <a 
+                href="https://goit.global" 
+                target="_blank" 
+                rel="noreferrer nofollow noopener"
+                >GoIT
             </a>
-            with line break
-        </div>
-
-        <!-- ==================================== -->
-        <!-- ПОТОК ДОКУМЕНТА. задача 7/16 -->
-
-        <div class="card">
-            <h4 class="card-title">The order in which files are loaded by the browser</h4>
-            <ol class="card-items">
-                <li class="card-item">HTML file</li>
-                <li class="card-item">Link to files inside head</li>
-                <li class="card-item">Link to files inside body</li>
-            </ol>
-        </div>
-
-        <!-- ==================================== -->
-        <!-- ГРУППИРОВКА ОДНОРОДНЫХ НАБОРОВ ТЕГОВ. задача 8/16 -->
-
-        <h4 class="card-title">Card title 1</h4>
-        <div class="wrp-img">
-            <img class="card-image" src="https://ac.goit.global/img/photo1.jpg" alt="image description" />
-        </div>
-        <p class="card-description">Description of the topic 1</p>
-        
-        <h4 class="card-title">Card title 2</h4>
-        <div class="wrp-img">
-            <img class="card-image" src="https://ac.goit.global/img/photo2.jpg" alt="image description" />
-        </div>
-        <p class="card-description">Description of the topic 2</p>
-        
-        <h4 class="card-title">Card title 3</h4>
-        <div class="wrp-img">
-            <img class="card-image" src="https://ac.goit.global/img/photo3.jpg" alt="image description" />
-        </div>
-        <p class="card-description">Description of the topic 3</p>
+            <br>
+            <br>
+            <br>
 
 
+            <h2 class="h2_header-style">============ ССЫЛКА НА СКАЧИВАЕМЫЙ ФАЙЛ. АТРИБУТ DOWNLOAD. Задача 10/16 (исходник) ============</h2>
+            
+            <a href="resume.pdf">Resume</a>
+            
+            <h3 class="h3_header-style">============ задание 10 ============</h3>
+            
+            <p class="task-word">
+                Добавь ссылке атрибут, необходимый для скачивания файла.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 10 ============</h3>
+            
+            <a href="resume.pdf" download>Resume</a>
+            </a>
+            <br>
+            <br>
+            <br>
+
+            <h2 class="h2_header-style">============ ССЫЛКА ДЛЯ ТЕЛЕФОНА И EMAIL. Задача 11/16 (исходник)
+                ============</h2>
+            
+            <!-- Link to phone number  -->
+            <a href="+14251234563">+1 (425) 123-45-63</a>
+            <!-- Link to e-mail address -->
+            <a href="example@gmail.com">example@gmail.com</a>
+
+            <h3 class="h3_header-style">============ задание 11 ============</h3>
+            
+            <p class="task-word">
+                Добавь ссылкам специальные значения href.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 11 ============</h3>
+            
+            <!-- Link to phone number  -->
+            <a href="tel:+14251234563">+1 (425) 123-45-63</a>
+
+            <!-- Link to e-mail address -->
+            <a href="mailto:example@gmail.com">example@gmail.com</a>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ ССЫЛКА-ЯКОРЬ. Задача 12/16 (исходник)
+                ============</h2>
+            
+            <header id="">
+                <!-- content from logo, nav, search  -->
+            </header>
+            <main>
+                <aside>
+                    <ul>
+                        <li><a href="#top">Top of the page</a></li>
+                        <li><a href="#page-theme">Main theme</a></li>
+                        <li><a href="#bottom">Footer of the page</a></li>
+                    </ul>
+                </aside>
+                <article id="">
+                    <!-- main page theme -->
+                </article>
+            </main>
+            <footer id="">
+                <!-- content from logo, nav, contacts, copyright  -->
+            </footer>
+ 
+            <h3 class="h3_header-style">============ задание 12 ============</h3>
+            
+            <p class="task-word">
+                Расставь значения атрибутов id для навигации по странице с помощью ссылок из aside.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 12 ============</h3>
+            
+            <header id="top">
+                <!-- content from logo, nav, search  -->
+            </header>
+            <main>
+                <aside>
+                    <ul>
+                        <li><a href="#top">Top of the page</a></li>
+                        <li><a href="#page-theme">Main theme</a></li>
+                        <li><a href="#bottom">Footer of the page</a></li>
+                    </ul>
+                </aside>
+                <article id="page-theme">
+                    <!-- main page theme -->
+                </article>
+            </main>
+            <footer id="bottom">
+                <!-- content from logo, nav, contacts, copyright  -->
+            </footer>
+            <br>
+            <br>
+            <br>
+            
+            
+            <h2 class="h2_header-style">==== ИЗОБРАЖЕНИЕ С ПОДПИСЬЮ. ЭЛЕМЕНТЫ FIGURE И FIGCAPTION. Задача 13/16 (исходник) ====</h2>
+            
+            <img src="https://ac.goit.global/img/photo1.jpg" alt="photo description" /> Only
+            one img element and any number of text or other elements can be used inside
+            link. You cannot use interactive elements inside link tag.
+            
+            <h3 class="h3_header-style">============ задание 13 ============</h3>
+            
+            <p class="task-word">
+                Размести теги внутри тега figure и контент внутри тега figcaption.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 13 ============</h3>
+            
+            <figure>
+                <img src="https://ac.goit.global/img/photo1.jpg" alt="photo description" />
+                <figcaption>Only
+                one img element and any number of text or other elements can be used inside
+                link. You cannot use interactive elements inside link tag.
+                </figcaption> 
+            </figure>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">==== ИЗОБРАЖЕНИЕ С ПОДПИСЬЮ. ЭЛЕМЕНТЫ FIGURE И FIGCAPTION. Задача 14/16 (исходник) ====</h2>
+            
+            <a class="link" target="_blank" href="https://goit.global">
+            
+            </a>
+            <img src="https://ac.goit.global/img/photo1.jpg" alt="note in laptop" />
+            <img src="https://ac.goit.global/img/photo2.jpg" alt="note on paper" />
+
+            
+            <h3 class="h3_header-style">============ задание 14 ============</h3>
+            
+            <p class="task-word">
+                Два изображения должны быть ссылкой на одну и ту же страницу. Разместите теги правильно.<br /> 
+                Допускается добавление только одного элемента - еще одной ссылки.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 14 ============</h3>
+            
+            <a 
+                class="link" 
+                target="_blank" 
+                href="https://goit.global">
+                    <img src="https://ac.goit.global/img/photo1.jpg" alt="note in laptop" />
+            </a>
+
+            <a 
+                class="link" 
+                target="_blank" 
+                ref="https://goit.global">
+                    <img src="https://ac.goit.global/img/photo2.jpg" alt="note on paper" />
+            </a>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">==== INDEX.HTML - ТОЧКА ВХОДА В ПРИЛОЖЕНИЕ. Задача 15/16 (исходник) ====</h2>
+            
+            <!--  TODO
+            * create project with the following structure:
+            images/logo.svg
+            css/style.css
+            about.html
+            hw.html
+            -->
+            
+            <h3 class="h3_header-style">============ задание 15 ============</h3>
+            
+            <p class="task-word">
+                Текст в комментарии содержит описание структуры файлов и папок (директорий) для размещения на github.<br />
+                
+                Чтобы проект отобразился как веб-страница веб-сервер github должен найти файл index.html и выполнить его.<br />
+
+                Т.е. нужен файл в котором произойдет запуск приложения (точка входа в приложение).<br />
+                
+                Замени название файла hw.html, чтобы приложение начало выполняться с чтения именно этого файла.<br />
+                
+                Допускается добавление только одного элемента - еще одной ссылки.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 15 ============</h3>
+            
+            <!--  TODO
+            * create project with the following structure:
+            images/logo.svg
+            css/style.css
+            about.html
+            https://my.github.io/index.html
+            -->
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">==== УЧЕТ ЗАВИСИМОСТИ ПУТИ ОТ РЕГИСТРА. Задача 16/16 (исходник) ====</h2>
+            
+            <<img src="https://ac.goit.global/img/html-css.PNG" alt="logo" />
+
+            <h3 class="h3_header-style">============ задание 16 ============</h3>
+            
+            <p class="task-word">
+                Есть элемент img с абсолютным путем. Путь содержит некоторые буквы в<br /> 
+                верхнем регистре, что мешает отобразить картинку.<br />
+                Исправьте эту ошибку.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 16 ============</h3>
+            
+            <img src="https://ac.goit.global/img/html-css.png" alt="logo" />
+            <br>
+            <br>
+            <br>
+ 
+            <h1 class="h1_header-style">============ З А Ч Е Т  I-ой  Ч А С Т И !!!  ============</h1>
+
+
+
+
+        </Section>
 
     </div>
 
