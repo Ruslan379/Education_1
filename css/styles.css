@@ -55,3 +55,15 @@ body {
 
     /* margin-bottom: 20px; */
 }
+
+/* =============== из К О Н С П Е К Т А =========== */
+.excerpt {
+    /* Sets the border */
+    border: 2px dashed #2196F3;
+
+    /* Adds an inner padding */
+    padding: 15px;
+
+    /* Sets outer margins */
+    margin: 20px;
+}
