@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Module_3-6</title>
+</head>
+
+<!-- ++++++++++++++++++++++++++++ B O D Y +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<body>
+    <!-- ======== Шапка сайта (header) ======= -->
+    <header>
+        <!-- ======== Основной блок НАВИГАЦИИ (navigation) ======= -->
+        <nav>
+            <!-- ======== ЛОГОТИП (logo) ======= -->
+            <div>
+                <a href="./index.html">
+                    <img src="./img/Logo_0.png" 
+                    alt="Мой логотип" 
+                    width="100" />
+                    &lAarr; Main
+                </a>
+            </div>
+            
+        <!-- ======== Блок ОСНОВНЫХ ССЫЛОК (main_link) ======= -->
+            <div>
+                <h1>Модуль 3 - Занятие 6 - Flexbox</h1>
+                <ul>
+                    <li><a href="./module_1-1-1.html"">Модуль 1 - Занятие 1 - HTML часть 1</a></li>
+                    <li><a href="./module_1-2-2.html">Модуль 1 - Занятие 2 - HTML часть 2</a></li>
+                    <li><a href="./module_2-3.html">Модуль 2 - Занятие 3 - Селекторы и цвет</a></li>
+                    <li><a href="./module_2-4 .html">Модуль 2 - Занятие 4 - Текст и шрифт</a></li>
+                    <li><a href="./module_3-5.html">Модуль 3 - Занятие 5 - Блочная модель</a></li>
+                    <li><a href="./module_3-6.html">Модуль 3 - Занятие 6 - Flexbox</a></li>
+                    
+                </ul>
+                
+                <ul>
+                    <li><a href="">Log in</a></li>
+                    <li><a href="">Register</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+<!-- ++++++++++++++++++++++++++++ main-content ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- ============== ОСНОВНОЙ Блок (main) ============== -->
+    <main>
+    <div class="main-content">
+
+        <h1 class="h1_header-style">---------- WorkBook HTML часть 1 ----------</h1>
+
+
+        <h2 class="h2_header-style">============ Произвольная картинка от генератора ============</h2>
+
+        <p>
+            <a href="">RELOAD</a>
+            <a> - загружается случайная фотография:</a>
+        </p>
+
+        <p>
+            <button type="button">Reload</button>
+        </p>
+        
+        <!-- Загруска произвольной картинки от генератора -->
+        <div>
+            <img 
+                src="https://picsum.photos/640/480" 
+                alt="Произвольная картинка от генератора" />
+        </div>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+        <!-- <section class="section_header"></section> -->
+        <h2 class="h2_header-style">============ Примеры тегов ============</h2>
+
+        <section><h3>Это заголовок СЕКЦИИ</h3>Секция</section>
+
+        <p>Абзац</p>
+       
+        <a>Ссылка</a>
+        <br>
+        <br>
+
+        <button>Кнопка</button>
+
+
+        <h2 class="h2_header-style">============ Атрибуты ============</h2>
+
+        <a href="https://google.com" class="link">...ссылка...</a>
+        <br>
+        <br>
+
+        <img src="cat.jpg" alt="cute cat" />
+        <br>
+        <br>
+
+        <input type="text" name="user_name" />
+        <br>
+        <br>
+
+        <button type="submit">...</button>
+
+        <p class="text">...</p>
+
+
+        <h2 class="h2_header-style">============ Атрибуты тега a ============</h2>
+  
+        <a
+            href="http://google.com" 
+            target="_blank" 
+            title="Поисковая система Google">
+            Google.com
+        </a>
+        <a> - ссылка откроется в НОВОМ окне</a>
+
+        <br>
+        <br>
+
+        <a href="http://google.com" 
+           title="Поисковая система Google">
+           Google.com
+        </a>
+        <a> - ссылка откроется в ЭТОМ ЖЕ окне</a>
+
+
+        <h2 class="h2_header-style">============ Фото КОТИК (только фото) ============</h2>
+
+        <img 
+            src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640" 
+            alt="Рыжий кот"
+            width="800"
+        />
+
+
+        <h2 class="h2_header-style">============ Фото КОТИК (только ссылка) ============</h2>
+
+        <a 
+            href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/" 
+            target="_blank" 
+            title="КОТИК">
+            КОТИК
+        </a>
+
+
+        <h2 class="h2_header-style">============ Фото КОТИК (фото-ссылка) ============</h2>
+
+        <a 
+            href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/" 
+            target="_blank" 
+            title="КОТИК">
+                <img 
+                src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640" 
+                alt="Рыжий кот"
+                width="640" 
+                />
+        </a>
+
+
+        <h2 class="h2_header-style">============ Фото заката (Sunset_1 var.3)============</h2>
+
+        <img 
+            src="./img/Sunset_1.jpg" 
+            alt="Фото заката" 
+            width="800" 
+        />
+        <br>
+    
+
+        <h2 class="h2_header-style">============ Фото МАЯК НАЖЕЖДЫ (только фото) ============</h2>
+
+        <img 
+            src="https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/274472747_1370828816700493_1928568093621275075_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=QtekU44mCDgAX8IXGxJ&_nc_ht=scontent-hel3-1.xx&oh=00_AT-uwQ7slyyYUKMZoflwK5PeqUOf6FZHfhlfCeczfcg2-A&oe=6266595F"
+            alt="МАЯК НАДЕЖДЫ" 
+            width="800" 
+        />
+
+        
+        <h2 class="h2_header-style">============ Фото МАЯК НАЖЕЖДЫ (только ссылка) ============</h2>
+
+        <a 
+            href="https://www.facebook.com/photo/?fbid=1370828823367159&set=a.117273048722749"
+            target="_blank"
+            title="МАЯК НАДЕЖДЫ">
+            МАЯК НАДЕЖДЫ
+        </a>
+
+
+        <h2 class="h2_header-style">============ Фото МАЯК НАЖЕЖДЫ (только фото-ссылка) ============</h2>
+
+        <a 
+            href="https://www.facebook.com/photo/?fbid=1370828823367159&set=a.117273048722749" 
+            target="_blank"
+            title="МАЯК НАДЕЖДЫ">
+                <img 
+                    src="https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/274472747_1370828816700493_1928568093621275075_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=QtekU44mCDgAX8IXGxJ&_nc_ht=scontent-hel3-1.xx&oh=00_AT-uwQ7slyyYUKMZoflwK5PeqUOf6FZHfhlfCeczfcg2-A&oe=6266595F"
+                    alt="МАЯК НАДЕЖДЫ" 
+                    width="640" 
+                />
+         </a>
+
+
+        <h2 class="h2_header-style">============ Парные теги ============</h2>
+
+        <!-- Статъя с заголовком и абзацем -->
+        <article>
+            <h4>Кратко о парных тегах</h4>
+            <p>
+                Большинство тегов парные. Их контент заключён между открывающим и
+                закрывающим тегом.
+            </p>
+        </article>
+
+
+        <h2 class="h2_header-style">============ Одиночные теги ============</h2>
+
+
+        <!-- Поле ввода -->
+        <input type="text" />
+
+        <!-- Изображение -->
+        <img src="cat.jpg" alt="cool cat" />
+
+
+        <h2 class="h2_header-style">============ Вложенность тегов ============</h2>
+
+        <p>
+            <a href="squoosh.app">Squoosh</a> - сервис <em>оптимизации</em> изображений.
+        </p>
+        
+        <p>Преимущества</p>
+        <ul>
+            <li>Работает в браузере</li>
+            <li>Не грузит систему</li>
+            <li>Удобный интерфейс</li>
+        </ul>
+
+
+        <h2 class="h2_header-style">============ Поток документа ============</h2>
+
+        <!-- Абзац это блочный элемент -->
+        <p>Блочный элемент 1</p>
+        <p>Блочный элемент 2</p>
+        <p>Блочный элемент 2</p>
+        
+        <!-- Ссылка это строчный элемент -->
+        <a href="">Строчный элемент 1</a>
+        <a href="">Строчный элемент 2</a>
+        <a href="">Строчный элемент 2</a>
+
+
+        <h2 class="h2_header-style">============ Абзац ============</h2>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque eligendi, a
+            eaque, esse itaque porro non exercitationem odio earum quos perferendis!
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, totam velit
+            asperiores non temporibus ut nisi minima?
+        </p>
+
+        <h2 class="h2_header-style">============ Списки ============</h2>
+
+        <h1>Как заварить чай</h1>
+        <p>Пошаговая инструкция для чайников, просто повтори и у тебя всё получится!</p>
+
+        <ol>
+            <li>Закипятить воду</li>
+            <li>Засыпать чай в чашку</li>
+            <li>Налить в чашку кипяток</li>
+            <li>Ждать 10 минут, после чего можно пить</li>
+        </ol>
+
+        <!-- ==================================== -->
+
+        <h1>Самые горячие курорты</h1>
+        <p>В этом году эксперты рекомендуют посетить следующие локации.</p>
+
+        <ul>
+            <li>Тунис</li>
+            <li>Турция</li>
+            <li>Греция</li>
+            <li>Египет</li>
+        </ul>
+
+
+        <h2 class="h2_header-style">============ Вложенные списки ============</h2>
+
+        <ul>
+            <li>Компьютеры и комплектующие<br><br><ol>
+                                                    <li>Процессоры</li>
+                                                    <li>Мониторы</li>
+                                                    <li>Видеокарты</l>
+                                                </ol>
+            </li>
+            <br>
+
+            <li>Бытовая техника           <br><br><ol>
+                                                    <li>Холодильники</>
+                                                    <li>Телевизоры</li>
+                                                    <li>Стиральные машины</li>
+                                                </ol>
+            </li>
+            <br>
+
+            <li>Товары для дома           <br><br><ol>
+                                                    <li>Кресла</li>
+                                                    <li>Матрасы</li>
+                                                    <li>Электрокамины</li>
+                                                </ol>
+            </li>
+            <br>
+
+        </ul>
+
+
+        <h2 class="h2_header-style">============ Ссылки ============</h2>
+
+        <a href="https://google.com">Ссылка на главную страницу Google</a>
+
+
+        <h2 class="h2_header-style">============ Атрибуты target и rel ============</h2>
+
+        <!-- Ссылка на внешний ресурс, откроется в текущей вкладке -->
+        <a 
+            href="https://www.facebook.com/">
+            Facebook
+        </a>
+        <a> - ссылка откроется в ЭТОМ ЖЕ окне</a>
+
+        <p></p>
+
+        <!-- Ссылка на внешний ресурс, откроется в новой вкладке -->
+        <a 
+            href="https://www.facebook.com/" 
+            target="_blank" rel="noreferrer noopener">
+            Facebook
+        </a>
+        <a> - ссылка откроется в НОВОМ окне</a>
+
+        <h2 class="h2_header-style">============ Атрибут download ============</h2>
+
+        <!-- Ссылка на скачивание файла -->
+        <!-- <a href="/путь/к/cv.pdf" download>Скачать резюме Антона Черного</a> -->
+
+        <a href="https://ruslan379.github.io/Resume_GoIT/" download>Скачать резюме Антона Черного</a>
+
+
+        <h2 class="h2_header-style">============ Специальные значения href ============</h2>
+
+        <!-- Ссылка на телефонный номер -->
+        <a href="tel:+14251234562">+1 (425) 123-45-62</a>
+
+        <p></p>
+
+        <!-- Ссылка на адрес электронной почты  -->
+        <a href="mailto:example@mail.ru">example@mail.ru</a>
+
+
+        <h2 class="h2_header-style">============ Ссылка-якорь ============</h2>
+
+        <h1>Dental clinic website</h1>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#reviews">Testimonials</a></li>
+        </ul>
+
+        <section>
+            <h2 id="about">About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae
+                temporibus
+                similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore
+                molestiae
+                doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero
+                nostrum minus
+                libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam
+                animi ex
+                earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque
+                quis veniam
+                tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi
+                placeat dolor
+                ducimus sit distinctio corporis.</p>
+            <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe
+                fugit modi
+                sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed
+                consequuntur ullam
+                rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam
+                quibusdam,
+                repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio
+                dignissimos id
+                quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est
+                nobis quaerat
+                maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste
+                perferendis
+                enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
+        </section>
+
+        <section>
+            <h2 id="features">Features</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae
+                temporibus
+                similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore
+                molestiae
+                doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero
+                nostrum minus
+                libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam
+                animi ex
+                earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque
+                quis veniam
+                tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi
+                placeat dolor
+                ducimus sit distinctio corporis.</p>
+            <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe
+                fugit modi
+                sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed
+                consequuntur ullam
+                rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam
+                quibusdam,
+                repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio
+                dignissimos id
+                quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est
+                nobis quaerat
+                maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste
+                perferendis
+                enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
+        </section>
+
+        <section>
+            <h2 id="team">Team</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae
+                temporibus
+                similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore
+                molestiae
+                doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero
+                nostrum minus
+                libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam
+                animi ex
+                earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque
+                quis veniam
+                tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi
+                placeat dolor
+                ducimus sit distinctio corporis.</p>
+            <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe
+                fugit modi
+                sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed
+                consequuntur ullam
+                rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam
+                quibusdam,
+                repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio
+                dignissimos id
+                quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est
+                nobis quaerat
+                maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste
+                perferendis
+                enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
+        </section>
+
+        <section>
+            <h2 id="reviews">Testimonials</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod. Nulla ea nobis magnam, fuga vitae
+                temporibus
+                similique quasi, et autem, voluptas ipsam nesciunt! Cumque quisquam id, provident odio maxime tempore
+                molestiae
+                doloribus perspiciatis mollitia temporibus ex veniam hic velit quaerat eius similique rem, enim vero
+                nostrum minus
+                libero iusto voluptate ea error! Cupiditate nam magnam nostrum quae at veritatis consequuntur. Aliquam
+                animi ex
+                earum fugiat iste hic voluptatum, illo quod modi aut quia pariatur a amet repellat minima, doloremque
+                quis veniam
+                tempore ullam accusantium natus aspernatur exercitationem ipsum quas. Eveniet eligendi sunt, nisi
+                placeat dolor
+                ducimus sit distinctio corporis.</p>
+            <p>Sequi doloribus voluptate nulla recusandae, aspernatur optio autem fugiat cum laboriosam soluta? Saepe
+                fugit modi
+                sequi, illum aut voluptas distinctio esse placeat incidunt ea quasi libero dolor expedita sed
+                consequuntur ullam
+                rem, molestiae dolore nostrum obcaecati officia aperiam debitis consectetur ipsam? Illo earum nam
+                quibusdam,
+                repellendus architecto facilis iusto doloremque repellat ea nemo odio, non ad consequuntur distinctio
+                dignissimos id
+                quas reiciendis? Iste consequatur temporibus magnam quos quis voluptatum. Delectus impedit commodi est
+                nobis quaerat
+                maiores quidem sed ipsum odio fugiat architecto reiciendis dolore, molestias porro, temporibus ipsa iste
+                perferendis
+                enim ut ullam corrupti deserunt illo quibusdam. Architecto, fuga modi?</p>
+        </section>
+
+
+        <h2 class="h2_header-style">============ Кнопка ============</h2>
+    
+        <button type="button">Открыть модальное окно</button>
+
+
+        <h2 class="h2_header-style">============ Изображения ============</h2>
+        
+        <img 
+            src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg" 
+            alt="Macbook Air на сером деревянном столе"
+            width="800" 
+        />
+
+
+        <h2 class="h2_header-style">=============== Изображение с подписью ===============</h2>
+        
+        <figure>
+            <figcaption>Macbook Air на сером деревянном столе</figcaption>
+            <img 
+                src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg" 
+                alt="Macbook Air на сером деревянном столе"
+                width="800"
+            />
+            <!-- <figcaption>Macbook Air на сером деревянном столе</figcaption> -->
+        </figure>
+
+
+        <h2 class="h2_header-style">=============== Изображение-ссылка с подписью ===============</h2>
+        
+        <figure>
+
+            <figcaption>Macbook Air на сером деревянном столе
+                        <br>
+                        Щелкни по картинке и...
+                        <br>
+                        ... увидишь другой Macbook Air + &phone; + &olcir;:
+                        <p>Все права защищены &copy; Lex, 2020</p>
+                        <p>Все права защищены &#174; Lex, 2020</p>
+                        <p>Все права защищены &Cconint;; Lex, 2020</p>
+            </figcaption>
+
+            <a 
+                href="https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg"
+                target="_blank"
+                title="Macbook Air на сером деревянном столе">
+            
+                <img 
+                    src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg"
+                    alt="Macbook Air на сером деревянном столе" 
+                    width="400" 
+                />
+            </a>
+            <!-- <figcaption>Macbook Air на сером деревянном столе</figcaption> -->
+        </figure>
+
+     
+        
+        <h2 class="h2_header-style">============ ТАБЛИЦЫ ============</h2>
+
+        <table>
+            <tr>
+                <td>42</td>
+                <td>Киев - Ковель</td>
+                <td>5 часов</td>
+            </tr>
+            <tr>
+                <td>701</td>
+                <td>Харьков - Днепр</td>
+                <td>7 часов</td>
+            </tr>
+            <tr>
+                <td>258</td>
+                <td>Львов - Одесса</td>
+                <td>4 часа</td>
+            </tr>
+        </table>
+
+
+        <h2 class="h2_header-style">============ Видео ============</h2>
+
+        <video 
+            src="http://techslides.com/demos/sample-videos/small.webm"
+            poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" 
+            width="640" 
+            controls 
+            autoplay 
+            loop
+            preload="auto">
+        </video>
+
+
+        <h2 class="h2_header-style">============ Видео Two Beautiful Humpback Whales Dance ============</h2>
+
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/o767PuYbEXg" 
+            title="YouTube video player"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+
+        <h2 class="h2_header-style">============ Видео Осенний этюд с Вивальди... ============</h2>
+
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.facebook.com/FLASISO/videos/291926759494421" 
+            title="YouTube video player"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <Section><h1 class="h1_header-style">============ А В Т О П Р О В Е Р К А ============</h1>
+
+            <h2 class="h2_header-style">============ ЧТО ТАКОЕ HTML ТЕГ. ПАРНЫЙ ТЕГ. Задача 1/16 (исходник) ============</h2>
+
+            The main theme of the web page in the h1 header.
+                    
+            <h3 class="h3_header-style">============ задание 1 ============</h3>
+
+            <p class="task-word">Оберни текст тегом h1</p> 
+                  
+            <h3 class="h3_header-style">============ ОТВЕТ 1 ============</h3>
+            
+            <h1>The main theme of the web page in the h1 header.</h1>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ HTML КОММЕНТАРИЙ. Задача 2/16 (исходник) ============</h2>
+            
+            The commentary answers the question "Why is this part of the code written".
+
+            <h3 class="h3_header-style">============ задание 2 ============</h3>
+            
+            <p class="task-word">Напиши html комментарий с текстом: The commentary answers the question "Why is this part of the code written".</p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 2 ============</h3>
+            
+            <h1>&lt;!-- The commentary answers the question "Why is this part of the code written". --&gt;</h1>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ ОДИНОЧНЫЙ ТЕГ. Задача 3/16 (исходник) ============</h2>
+            
+            <p>&lt;img/&gt;</p> 
+            
+            <h3 class="h3_header-style">============ задание 3 ============</h3>
+            
+            <p class="task-word">
+                Напиши в теге img два обязательных и два необязательных атрибута<br /><br />
+            
+                Список атрибутов:<br /><br />
+            
+                src:   файл, расположенный по относительному пути /photo.jpg;<br />
+                alt:   текст с описанием изображения Image example;<br />
+                width:   ширина в 200 пикселей;<br />
+                height:   height в 150 пикселей.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 3 ============</h3>
+            
+            <img 
+                src="img/photo.jpg" 
+                alt="Image example" 
+                width="200" height="150"
+            >            
+            <br>
+            <br>
+            <br>
+            
+            
+            <h2 class="h2_header-style">============ ВЛОЖЕННОСТЬ ТЕГОВ. Задача 4/16 (исходник) ============</h2>
+
+            HTML CSS JavaScript
+ 
+            <h3 class="h3_header-style">============ задание 4 ============</h3>
+
+            <p class="task-word">
+                Используя теги ul и li перечисли 3 основные веб технологии. Порядок текста<br /> 
+                должен быть сохранен.
+            </p>
+
+            <h3 class="h3_header-style">============ ОТВЕТ 4 ============</h3>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            <br>
+            <br>
+            <br>
+
+            <h2 class="h2_header-style">============ ВЛОЖЕННОСТЬ ТЕГОВ. Задача 5/16 (исходник) ============</h2>
+            
+            <button type="button" class="button">inline</button>
+            <button type="button" class="button">block</button>
+            <button type="button" class="button">inline-block</button>
+            <button type="button" class="button">HTML</button>
+            <button type="button" class="button">CSS</button>
+            <button type="button" class="button">JavaScript</button>
+            
+            <h3 class="h3_header-style">============ задание 5 ============</h3>
+            
+            <p class="task-word">
+                Оберни строчные теги button контейнерами div с классом buttons так, чтобы в <br />
+                двух рядах было по три кнопки и каждый ряд начинался с новой строки.<br />
+                
+                Порядок элементов button должен быть сохранен.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 5 ============</h3>
+            
+            <div class="buttons">
+                <button type="button" class="button">inline</button>
+                <button type="button" class="button">block</button>
+                <button type="button" class="button">inline-block</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class="button">HTML</button>
+                <button type="button" class="button">CSS</button>
+                <button type="button" class="button">JavaScript</button>
+            </div>
+            <br>
+            <br>
+            <br>
+        
+
+            <h2 class="h2_header-style">============ ВЛОЖЕННОСТЬ ТЕГОВ. Задача 6/16 (исходник) ============</h2>
+            
+            <div class="box">
+                <a href="#" class="link-inline">Text</a>
+                without line break
+            </div>
+            <div class="box">
+                <a href="#" class="link-block">Text</a>
+                with line break
+            </div>
+
+            <h3 class="h3_header-style">============ задание 6 ============</h3>
+            
+            <p class="task-word">
+                В исходном коде присутсвует две ссылки с одним и тем же контентом - строкой Текст.<br />
+                
+                У ссылок имеются названия классов - link-inline и link-block.<br />
+                
+                Для первой ссылки (с классом link-inline): оберни контент ссылки - строку Текст строчным тегом span .<br />
+                
+                Для второй ссылки (с классом link-block): оберни контент ссылки - строку Текст блочным тегом p для второй ссылки.<br />
+                
+                Визуально убедись, что к каждой из ссылок применилось свойство inline или block.<br />
+                
+                Порядок элементов a должен быть сохранен.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 6 ============</h3>
+            
+            <div class="box">
+                <a href="#" class="link-inline"><span class="link-inline">Text</span></a>
+                without line break
+            </div>
+            
+            <div class="box">
+                <a href="#" class="link-block"><p class="link-block">Text</p></a>
+                with line break
+            </div>
+            <br>
+            <br>
+            <br>
+
+          
+            <h2 class="h2_header-style">============ ПОТОК ДОКУМЕНТА. Задача 7/16 (исходник) ============</h2>
+            
+            <div class="card">
+                <h4 class="card-title">The order in which files are loaded by the browser</h4>
+                <ol reversed class="card-items">
+                    <li class="card-item">Link to files inside body</li>
+                    <li class="card-item">HTML file</li>
+                    <li class="card-item">Link to files inside head</li>
+                </ol>
+            </div>
+
+            <h3 class="h3_header-style">============ задание 7 ============</h3>
+            
+            <p class="task-word">
+                1. Исправьте порядок нумерации удалив атрибут тега ol.<br />
+
+                2. Расставь элементы li в нужном порядке согласно описанию<br />
+                последовательности загрузки. Номер 1 должен соответствовать
+                первому файлу,<br /> 
+                который будет загружен. Номер 2 - второму, номер 3 - третьему..
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 7 ============</h3>
+            
+            <div class="card">
+                <h4 class="card-title">The order in which files are loaded by the browser</h4>
+                <ol class="card-items">
+                    <li class="card-item">HTML file</li>
+                    <li class="card-item">Link to files inside head</li>
+                    <li class="card-item">Link to files inside body</li>
+                </ol>
+            </div>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ ГРУППИРОВКА ОДНОРОДНЫХ НАБОРОВ ТЕГОВ. Задача 8/16 (исходник) ============</h2>
+            
+            <h4 class="card-title">Card title 1</h4>
+
+            <div class="wrp-img">
+                <img class="card-image" src="https://ac.goit.global/img/photo1.jpg" alt="image description" />
+            </div>
+
+            <p class="card-description">Description of the topic 1</p>
+            
+            <h4 class="card-title">Card title 2</h4>
+
+            <div class="wrp-img">
+                <img class="card-image" src="https://ac.goit.global/img/photo2.jpg" alt="image description" />
+            </div>
+
+            <p class="card-description">Description of the topic 2</p>
+            
+            <h4 class="card-title">Card title 3</h4>
+
+            <div class="wrp-img">
+                <img class="card-image" src="https://ac.goit.global/img/photo3.jpg" alt="image description" />
+            </div>
+
+            <p class="card-description">Description of the topic 3</p>
+
+        
+            <h3 class="h3_header-style">============ задание 8 ============</h3>
+            
+            <p class="task-word">
+                1. Сгруппируй наборы тегов с помощью списка ul и элементов li.<br />
+                2. Тег ul должен иметь класс со значением (существительное во множественном числе) cards.<br />
+                3. Тег li должен иметь класс со значением (существительное в единственном числе) card.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 8 ============</h3>
+                
+            <ul class="cards">
+
+                <li class="card">
+                    <h4 class="card-title">Card title 1</h4>
+                    <div class="wrp-img">
+                        <img class="card-image" src="https://ac.goit.global/img/photo1.jpg" alt="image description" />
+                    </div>
+                    <p class="card-description">Description of the topic 1</p>
+                </li>
+
+                <li class="card">
+                    <h4 class="card-title">Card title 2</h4>
+                    <div class="wrp-img">
+                        <img class="card-image" src="https://ac.goit.global/img/photo2.jpg" alt="image description" />
+                    </div>
+                    <p class="card-description">Description of the topic 2</p>
+                </li>
+
+
+                <li class="card">
+                    <h4 class="card-title">Card title 3</h4>
+                    <div class="wrp-img">
+                        <img class="card-image" src="https://ac.goit.global/img/photo3.jpg" alt="image description" />
+                    </div>
+                    <p class="card-description">Description of the topic 3</p>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ ССЫЛКА НА ВНЕШНИЙ РЕСУРС. Задача 9/16 (исходник) ============</h2>
+            
+            <a href="https://goit.global" target=""> GoIT </a>
+
+            <h3 class="h3_header-style">============ задание 9 ============</h3>
+            
+            <p class="task-word">
+                Ссылка должна открыться в новой вкладке. В целях безопасности надо разорвать связь между<br /> 
+                новой вкладкой и той вкладкой, где расположена ссылка.<br />
+                
+                Для этого добавь ссылке необходимые значения атрибутов target и rel.
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 9 ============</h3>
+            
+            <a 
+                href="https://goit.global" 
+                target="_blank" 
+                rel="noreferrer nofollow noopener"
+                >GoIT
+            </a>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ ССЫЛКА НА СКАЧИВАЕМЫЙ ФАЙЛ. АТРИБУТ DOWNLOAD. Задача 10/16 (исходник) ============</h2>
+            
+            <a href="resume.pdf">Resume</a>
+            
+            <h3 class="h3_header-style">============ задание 10 ============</h3>
+            
+            <p class="task-word">
+                Добавь ссылке атрибут, необходимый для скачивания файла.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 10 ============</h3>
+            
+            <a href="resume.pdf" download>Resume</a>
+            </a>
+            <br>
+            <br>
+            <br>
+
+            <h2 class="h2_header-style">============ ССЫЛКА ДЛЯ ТЕЛЕФОНА И EMAIL. Задача 11/16 (исходник)
+                ============</h2>
+            
+            <!-- Link to phone number  -->
+            <a href="+14251234563">+1 (425) 123-45-63</a>
+            <!-- Link to e-mail address -->
+            <a href="example@gmail.com">example@gmail.com</a>
+
+            <h3 class="h3_header-style">============ задание 11 ============</h3>
+            
+            <p class="task-word">
+                Добавь ссылкам специальные значения href.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 11 ============</h3>
+            
+            <!-- Link to phone number  -->
+            <a href="tel:+14251234563">+1 (425) 123-45-63</a>
+
+            <!-- Link to e-mail address -->
+            <a href="mailto:example@gmail.com">example@gmail.com</a>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">============ ССЫЛКА-ЯКОРЬ. Задача 12/16 (исходник)
+                ============</h2>
+            
+            <header id="">
+                <!-- content from logo, nav, search  -->
+            </header>
+            <main>
+                <aside>
+                    <ul>
+                        <li><a href="#top">Top of the page</a></li>
+                        <li><a href="#page-theme">Main theme</a></li>
+                        <li><a href="#bottom">Footer of the page</a></li>
+                    </ul>
+                </aside>
+                <article id="">
+                    <!-- main page theme -->
+                </article>
+            </main>
+            <footer id="">
+                <!-- content from logo, nav, contacts, copyright  -->
+            </footer>
+ 
+            <h3 class="h3_header-style">============ задание 12 ============</h3>
+            
+            <p class="task-word">
+                Расставь значения атрибутов id для навигации по странице с помощью ссылок из aside.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 12 ============</h3>
+            
+            <header id="top">
+                <!-- content from logo, nav, search  -->
+            </header>
+            <main>
+                <aside>
+                    <ul>
+                        <li><a href="#top">Top of the page</a></li>
+                        <li><a href="#page-theme">Main theme</a></li>
+                        <li><a href="#bottom">Footer of the page</a></li>
+                    </ul>
+                </aside>
+                <article id="page-theme">
+                    <!-- main page theme -->
+                </article>
+            </main>
+            <footer id="bottom">
+                <!-- content from logo, nav, contacts, copyright  -->
+            </footer>
+            <br>
+            <br>
+            <br>
+            
+            
+            <h2 class="h2_header-style">==== ИЗОБРАЖЕНИЕ С ПОДПИСЬЮ. ЭЛЕМЕНТЫ FIGURE И FIGCAPTION. Задача 13/16 (исходник) ====</h2>
+            
+            <img src="https://ac.goit.global/img/photo1.jpg" alt="photo description" /> Only
+            one img element and any number of text or other elements can be used inside
+            link. You cannot use interactive elements inside link tag.
+            
+            <h3 class="h3_header-style">============ задание 13 ============</h3>
+            
+            <p class="task-word">
+                Размести теги внутри тега figure и контент внутри тега figcaption.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 13 ============</h3>
+            
+            <figure>
+                <img src="https://ac.goit.global/img/photo1.jpg" alt="photo description" />
+                <figcaption>Only
+                one img element and any number of text or other elements can be used inside
+                link. You cannot use interactive elements inside link tag.
+                </figcaption> 
+            </figure>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">==== ИЗОБРАЖЕНИЕ С ПОДПИСЬЮ. ЭЛЕМЕНТЫ FIGURE И FIGCAPTION. Задача 14/16 (исходник) ====</h2>
+            
+            <a class="link" target="_blank" href="https://goit.global">
+            
+            </a>
+            <img src="https://ac.goit.global/img/photo1.jpg" alt="note in laptop" />
+            <img src="https://ac.goit.global/img/photo2.jpg" alt="note on paper" />
+
+            
+            <h3 class="h3_header-style">============ задание 14 ============</h3>
+            
+            <p class="task-word">
+                Два изображения должны быть ссылкой на одну и ту же страницу. Разместите теги правильно.<br /> 
+                Допускается добавление только одного элемента - еще одной ссылки.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 14 ============</h3>
+            
+            <a 
+                class="link" 
+                target="_blank" 
+                href="https://goit.global">
+                    <img src="https://ac.goit.global/img/photo1.jpg" alt="note in laptop" />
+            </a>
+
+            <a 
+                class="link" 
+                target="_blank" 
+                ref="https://goit.global">
+                    <img src="https://ac.goit.global/img/photo2.jpg" alt="note on paper" />
+            </a>
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">==== INDEX.HTML - ТОЧКА ВХОДА В ПРИЛОЖЕНИЕ. Задача 15/16 (исходник) ====</h2>
+            
+            <!--  TODO
+            * create project with the following structure:
+            images/logo.svg
+            css/style.css
+            about.html
+            hw.html
+            -->
+            
+            <h3 class="h3_header-style">============ задание 15 ============</h3>
+            
+            <p class="task-word">
+                Текст в комментарии содержит описание структуры файлов и папок (директорий) для размещения на github.<br />
+                
+                Чтобы проект отобразился как веб-страница веб-сервер github должен найти файл index.html и выполнить его.<br />
+
+                Т.е. нужен файл в котором произойдет запуск приложения (точка входа в приложение).<br />
+                
+                Замени название файла hw.html, чтобы приложение начало выполняться с чтения именно этого файла.<br />
+                
+                Допускается добавление только одного элемента - еще одной ссылки.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 15 ============</h3>
+            
+            <!--  TODO
+            * create project with the following structure:
+            images/logo.svg
+            css/style.css
+            about.html
+            https://my.github.io/index.html
+            -->
+            <br>
+            <br>
+            <br>
+
+
+            <h2 class="h2_header-style">==== УЧЕТ ЗАВИСИМОСТИ ПУТИ ОТ РЕГИСТРА. Задача 16/16 (исходник) ====</h2>
+            
+            <<img src="https://ac.goit.global/img/html-css.PNG" alt="logo" />
+
+            <h3 class="h3_header-style">============ задание 16 ============</h3>
+            
+            <p class="task-word">
+                Есть элемент img с абсолютным путем. Путь содержит некоторые буквы в<br /> 
+                верхнем регистре, что мешает отобразить картинку.<br />
+                Исправьте эту ошибку.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 16 ============</h3>
+            
+            <img src="https://ac.goit.global/img/html-css.png" alt="logo" />
+            <br>
+            <br>
+            <br>
+ 
+            <h1 class="h1_header-style">============ З А Ч Е Т  I-ой  Ч А С Т И !!!  ============</h1>
+
+            <hr> 
+
+
+        </Section>
+
+    </div>
+    </main>
+
+    <!-- ============== Блок ПОДВАЛ_ФУТЕР  (footer) ============== -->
+    <footer>
+    
+        <a href="./index.html">WebStudio</a>
+            
+    </footer>
+</body>
+
+</html>
+
