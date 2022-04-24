@@ -25,6 +25,19 @@ body {
     margin-bottom: 100px;
 }
 
+/* ==== Произвольная картинка от генератора ==== */
+.random-picture {
+    margin-left: 640px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* ========ЛОГОТИП ФУТЕРА (logo-footer)======= */
+.logo-footer {
+    margin-left: 1700px;
+    margin-top: 0px;
+    /* margin-bottom: 30px; */
+}
 
 .h2_header-style {
     /* font-style: normal;
@@ -44,7 +57,22 @@ body {
     color: #2535c2;
 
     /* margin-bottom: 20px; */
+
 }
+
+/* === КОНСПЕКТ + АВТОПРОВЕРКИ === */
+.h01_header-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.67;
+    color: #850505;
+    /* margin-left: 400px; */
+    /* margin-top: 50px; */
+    /* margin-bottom: 100px; */
+}
+
+
 
 .task-word {
     font-style: normal;
