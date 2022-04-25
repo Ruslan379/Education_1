@@ -86,20 +86,22 @@ body {
 
 /* =============== из К О Н С П Е К Т А =========== */
 
-/* === Живой пример таблицы + CSS-разметка === */
+/* ============= Живой пример таблицы + CSS-разметка ============ */
 
 /* Shift the heading text to the left, by default it is centered */
 /* Сместите текст заголовка влево, по умолчанию он расположен по центру */
 table caption {
-    text-align: left;
+    text-align: center;
 }
 
 /* We "collapse" the frames of adjacent cells */
 /* "Сворачиваем"рамки соседних ячеек */
 table {
+    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+    margin: 3rem;
+    font-family: sans-serif;
     border-collapse: collapse;
 }
-
 /* 
   Add a border and padding to the cells, the distance from the content to the border.
   To control the vertical position, the caption-side property is used.
@@ -113,7 +115,32 @@ table td {
 }
 
 
-/* === Тег <pre> === */
+/* =============== из А В Т О П Р О В Е Р К И  № 2 =========== */
+
+/* ============= Задание 5/5 Сверстай таблицу + CSS-разметка ============ */
+caption {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+thead {
+    background-color: #555;
+    color: #fff;
+}
+
+td,
+th {
+    padding: 0.5rem 1rem;
+    border: 1px solid #888;
+    text-align: center;
+}
+
+td[colspan] {
+    background-color: #eee;
+}
+
+
+/* ========================== Тег <pre> ========================== */
 pre {
     font: inherit;
 }

@@ -520,37 +520,251 @@
             <source src="./audio/mamburu.ogg" type="audio/ogg" />
         </audio>
 
-        
         </section>
         <br>
         <br>
         <br>
+
         <!-- ============ Секция_2 АВТОПРОВЕРКА - Модуль 1 - Занятие 2 - HTML часть 2 (____) =========== -->
         <Section>
 
             <h1 id="autocheck" class="h1_header-style">=== АВТОПРОВЕРКА: Модуль 1 - Занятие 2 - HTML часть 2 ===</h1>
 
-            <h2 class="h2_header-style">============ ЧТО ТАКОЕ HTML ТЕГ. ПАРНЫЙ ТЕГ. Задача 1/16 (исходник) ============</h2>
 
-            The main theme of the web page in the h1 header.
+            <h2 class="h2_header-style">============ СПИСОК DL ИЗ ПАР DT И DD. Задача 1-1/5 (исходник) ============</h2>
+
+            <h4 class="card-title">Card title 1</h4>
+            <div class="wrp-img">
+                <img class="card-image" src="https://ac.goit.global/img/photo1.jpg" alt="image description" />
+            </div>
+            <p class="card-description">Description of the topic 1</p>
+            
+            <h4 class="card-title">Card title 2</h4>
+            <div class="wrp-img">
+                <img class="card-image" src="https://ac.goit.global/img/photo2.jpg" alt="image description" />
+            </div>
+            <p class="card-description">Description of the topic 2</p>
+            
+            <h4 class="card-title">Card title 3</h4>
+            <div class="wrp-img">
+                <img class="card-image" src="https://ac.goit.global/img/photo3.jpg" alt="image description" />
+            </div>
+            <p class="card-description">Description of the topic 3</p>
+
                     
             <h3 class="h3_header-style">============ задание 1 ============</h3>
 
-            <p class="task-word">Оберни текст тегом h1</p> 
+            <p class="task-word">
+                В редакторе html находится текст, состоящий из пар 'название' и 'описание'.<br/>     
+                Оформите этот текст в виде списка с помощью тегов dl, dt и dd.
+            </p> 
                   
+
             <h3 class="h3_header-style">============ ОТВЕТ 1 ============</h3>
             
-            <h1>The main theme of the web page in the h1 header.</h1>
+            <dl>
+                <dt><h4 class="card-title">Card title 1</h4></dt>
+                <dd>
+                    <div class="wrp-img">
+                        <img class="card-image" 
+                        src="https://ac.goit.global/img/photo1.jpg" 
+                        alt="image description" 
+                        />
+                    </div>
+                    <p class="card-description">Description of the topic 1</p>
+                </dd>
+                
+                <dt><h4 class="card-title">Card title 2</h4></dt>
+                <dd>
+                    <div class="wrp-img">
+                        <img class="card-image" 
+                        src="https://ac.goit.global/img/photo2.jpg" 
+                        alt="image description" 
+                        />
+                    </div>
+                    <p class="card-description">Description of the topic 2</p>
+                </dd>
+                
+                <dt><h4 class="card-title">Card title 3</h4></dt>
+                <dd>
+                    <div class="wrp-img">
+                        <img class="card-image" 
+                        src="https://ac.goit.global/img/photo3.jpg" 
+                        alt="image description" 
+                        />
+                    </div>
+                    <p class="card-description">Description of the topic 3</p>
+                </dd>
+            </dl>
             <br>
+            
+
+
+            <h2 class="h2_header-style">============ СПИСОК DL ИЗ ПАР DT И DD. Задача 1-2/5 (исходник) ============</h2>
+            
+            Tag span. A universal container for text content.
+            Tag pre. Preservation of spaces and hyphens.
+            Tag sup and sub. Displays characters in superscript and subscript.
+            Tag strong. Highlighting an important word or a whole phrase within the text.
+            Tag b. Visual highlighting of text with a thicker font.
+            Tag em. Semantically and visually (italic) emphasizes the text.
+            Tag i. Visually (italic) emphasizes the text.
+            Tag address. Wraps tags with content about an address or recipient.
+            
+            
+            <h3 class="h3_header-style">============ задание 1 ============</h3>
+            
+            <p class="task-word">
+                В редакторе html находится текст, состоящий из пар 'название' и 'описание'.<br />
+                Оформите этот текст в виде списка с помощью тегов dl, dt и dd.
+            </p>
+                        
+            <h3 class="h3_header-style">============ ОТВЕТ 1 ============</h3>
+            
+            <dl>
+                <dt>Tag span.</dt>  
+                    <dd>A universal container for text content.</dd>
+                <dt>Tag pre.</dt>
+                    <dd>Preservation of spaces and hyphens.</dd>
+                <dt>Tag sup and sub.</dt>
+                    <dd>Displays characters in superscript and subscript.</dd>
+                <dt>Tag strong.</dt>
+                    <dd>Highlighting an important word or a whole phrase within the text.</dd>
+                <dt>Tag b.</dt>
+                    <dd>Visual highlighting of text with a thicker font.</dd>
+                <dt>Tag em.</dt>
+                    <dd>Semantically and visually (italic) emphasizes the text.</dd>
+                <dt>Tag i.</dt>
+                    <dd>Visually (italic) emphasizes the text.</dd>
+                <dt>Tag address.</dt>
+                    <dd>Wraps tags with content about an address or recipient.</dd>
+            </dl>
             <br>
+            
+            
+            <h2 class="h2_header-style">============ ТЕГ TIME. Задача 2/16 (исходник) ============</h2>
+            
+            <p>
+                Epoch of Unix time started at <time> 00:00:00 UTC on 1 January 1970</time>
+            </p>
+            
+            
+            <h3 class="h3_header-style">============ задание 2 ============</h3>
+            
+            <p class="task-word">
+                Добавьте тегу time атрибут datetime со значением полночь на 01 января 1970 года
+                в формате 1970-01-01T00:00
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 2 ============</h3>
+            
+            <p>
+                Epoch of Unix time started at <time datetime="1970-01-01T00:00"> 00:00:00 UTC on 1 January 1970</time>
+            </p>
             <br>
 
 
-            <h2 class="h2_header-style">============ HTML КОММЕНТАРИЙ. Задача 2/16 (исходник) ============</h2>
+            <h2 class="h2_header-style">============ СИМВОЛЬНЫЕ ПОДСТАНОВКИ. Задача 3/16 (исходник) ============</h2>
             
+            <span></span>
+                        
+            <h3 class="h3_header-style">============ задание 3 ============</h3>
             
+            <p class="task-word">
+                Символьные подстановки не нужно запоминать, т.к. их много и их довольно легко найти:<br />
+                Используйте для поиска в ключевые слова: unicode html и название нужной подстановки<br /> 
+                (или словесное описание на что это похоже).<br />
+                В поиске нужного ответа на странице поиска используйте ключевое слово HTML Entity, <br />
+                HTML-код или мнемоника чтобы выбрать подходящий для html кода набор символов.<br />
+                Для css все действия аналогичны. Достаточно заменить html на css в поиске.<br /><br />
+
+                В элемент span добавьте контент - символьную подстановку для registered sign.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 3 ============</h3>
+            
+            <span>&#174;</span>
+            <br>
+
+
+            <h2 class="h2_header-style">============ АУДИО. Задача 4/16 (исходник) ============</h2>
+            
+            <audio>
+                <source>
+            </audio>
+            
+            <h3 class="h3_header-style">============ задание 4 ============</h3>
+            
+            <p class="task-word">
+                Добавьте атрибуты controls, preload="none" для тега audio<br />
+                Добавьте атрибуты src="https://goit.ua/autocheck/bensound-summer.mp3"<br />
+                и type="audio/mp3" для тега source.
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 4 ============</h3>
+            
+            <audio controls preload="none">
+                <source src="https://goit.ua/autocheck/bensound-summer.mp3" type="audio/mp3">
+            </audio>
+            <br>
+            
+
+            <h2 class="h2_header-style">=== ВЕРСТКА ТАБЛИЦЫ. ТЕГИ ТАБЛИЦЫ И АТРИБУТ COLSPAN. Задача 5/16 (исходник) ===</h2>
+            
+          
+            
+            <h3 class="h3_header-style">============ задание 5 ============</h3>
+            
+            <p class="task-word">
+                
+                Сверстай таблицу по ее изображению с помощью тегов и атрибута colspan.<br /><br />
+                ИЗОБРАЖЕНИЕ ТАБЛИЦЫ ДЛЯ ВЕРСТКИ:<br />
+            </p>
+
+            <img src="./img/table.png" alt="ТАБЛИЦА ДЛЯ ВЕРСТКИ" width="800"/>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 5 ============</h3>
+            
+            <table>
+                <caption>
+                    What is the difference between block, inline and inline-block
+                </caption>
+                <thead>
+                    <tr>
+                        <th>/</th>
+                        <th>block</th>
+                        <th>inline</th>
+                        <th>inline-block</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>height determined</th>
+                        <td colspan="3">by height of content</td>
+                    </tr>
+                    <tr>
+                        <th>width determined</th>
+                        <td>by width of parent element</td>
+                        <td colspan="2">by width of content</td>
+                    </tr>
+                    <tr>
+                        <th>Is it possible to set height and width</th>
+                        <td>yes</td>
+                        <td>no</td>
+                        <td>yes</td>
+                    </tr>
+                    <tr>
+                        <th>How line wrapping works</th>
+                        <td>always on a new line</td>
+                        <td colspan="2">only when filling the width of the parent element</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
             <hr>
-            <h1 class="h1_header-style">============ З А Ч Е Т  2-ой  Ч А С Т И !!!  ============</h1>
+
+
+            <h1 class="h1_header-style">============ З А Ч Е Т  2-ой  Ч А С Т И !!! (25.04.2022) ============</h1>
 
         </Section>
 
