@@ -73,8 +73,8 @@ body {
 }
 
 
-
-.task-word {
+.task-word, 
+.accent_span {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -85,6 +85,46 @@ body {
 }
 
 /* =============== из К О Н С П Е К Т А =========== */
+
+/* === Живой пример таблицы + CSS-разметка === */
+
+/* Shift the heading text to the left, by default it is centered */
+/* Сместите текст заголовка влево, по умолчанию он расположен по центру */
+table caption {
+    text-align: left;
+}
+
+/* We "collapse" the frames of adjacent cells */
+/* "Сворачиваем"рамки соседних ячеек */
+table {
+    border-collapse: collapse;
+}
+
+/* 
+  Add a border and padding to the cells, the distance from the content to the border.
+  To control the vertical position, the caption-side property is used.
+*/
+/* Добавьте к ячейкам границу и отступы, расстояние от содержимого до границы. 
+Для управления положением по вертикали используется свойство caption-side. */
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+
+/* === Тег <pre> === */
+pre {
+    font: inherit;
+}
+
+
+
+
+
+
+/* ==================    ==================== */
+
 .excerpt {
     /* Sets the border */
     border: 2px dashed #2196F3;
