@@ -137,6 +137,387 @@ pre {
 
 
 /* ============= Селектор идентификатора ============ */
+#title {
+    font-weight: 500;
+    color: orange;
+}
+
+
+/* ============= Селектор потомка ============ */
+/* ❌ Применится ко всем ссылкам в документе */
+/* a {
+    color: blue;
+    text-decoration: none;
+} */
+
+/* ✅ Применится только к ссылкам, которые лежат внутри тега с классом social-links */
+.social-links a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* ============= Селектор ребенка ============ */
+/* ❌ Не решает задачу */
+/* .menu li {
+    border: 1px solid tomato;
+} */
+
+/* ✅ То что нужно */
+.menu > li {
+    border: 3px solid tomato;
+}
+
+.submenu li {
+    border: 1px solid blue;
+}
+
+
+/* ===== Селектор атрибута -> элемент[атрибут] ===== */
+a[title] {
+    color:blueviolet;
+}
+
+
+/* ===== Селектор атрибута -> элемент[атрибут="значение"] ===== */
+/* Непривычное форматирование фигурных скобок это нормально */
+a[href="https://htmlreference.io"] {
+    color: teal;
+}
+
+a[href="https://cssreference.io"] {
+    color: orange;
+}
+
+a[href="https://www.youtube.com"] {
+    color: tomato;
+}
+
+
+/* Снова Переназначает элемент[атрибут] = a[title]  внужный цвет  */
+a[title] {
+    color: blueviolet;
+}
+
+
+/* ======== Псевдокласс состояния :hover ======== */
+.link1 {
+    color: teal;
+}
+
+.link1:hover {
+    color: tomato;
+}
+
+/* ======== изменит состояние ВСЕХ ссылок в документе ======= */
+/* a {
+    color: teal;
+}
+
+a:hover {
+    color: tomato;
+} */
+
+/* ================================================================ */
+.social-links2 .link2 {
+    color:#2196F3;
+}
+
+.social-links2 .link2:hover {
+    color:fuchsia;
+}
+
+/* .link3 {
+    color: #2196F3;
+}
+
+.link3:hover {
+    color: fuchsia;
+} */
+/* ======+++++++++++++?????????????????=========== */
+/* .social-links2 a {
+    color:#2196F3;
+}
+
+.social-links2:hover a {
+    color:fuchsia;
+} */
+/* ======+++++++++++++?????????????????=========== */
+
+
+/* ======== Псевдокласс состояния :focus ======== */
+.social-links4 .link4 {
+    color: teal;
+}
+
+.social-links4 .link4:focus {
+    color: orange;
+}
+
+
+/* ======== Псевдокласс состояния :active ======== */
+.social-links5 .link5 {
+    color: teal;
+}
+
+.social-links5 .link5:hover,
+.social-links5 .link5:focus {
+    color: orange;
+}
+
+.social-links5 .link5:active {
+    color: red;
+}
+
+
+/* ======== Псевдокласс состояния :active ======== */
+.social-links7 .link7 {
+    color: teal;
+}
+
+.social-links7 .link7:hover,
+.social-links7 .link7:focus {
+    color: orange;
+}
+
+.social-links7 .link7:active {
+    color: red;
+}
+
+.social-links7 .link7:visited {
+    color: green;
+}
+
+
+/* ================== Таблица 1 и :hover ================ */
+.schedule-body > tr:hover {
+    background-color: tomato;
+    color: white;
+}
+
+/* Оформление таблицы */
+.schedule {
+    border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+    padding: 8px;
+    border: 1px solid #212121;
+}
+
+
+/* ================== Таблица 2 и :hover ================ */
+.schedule-body2 td:hover {
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+
+/* Оформление таблицы */
+.schedule2 {
+    border-collapse: collapse;
+}
+
+.schedule2 th,
+.schedule2 td {
+    padding: 8px;
+    border: 1px solid #212121;
+}
+
+
+/* ================== Свойство cursor ================ */
+.auto {
+    cursor: auto;
+}
+
+.default {
+    cursor: default;
+}
+
+.none {
+    cursor: none;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.help {
+    cursor: help;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.text {
+    cursor: text;
+}
+
+.vertical-text {
+    cursor: vertical-text;
+}
+
+.alias {
+    cursor: alias;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.move {
+    cursor: move;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.n-resize {
+    cursor: n-resize;
+}
+
+.e-resize {
+    cursor: e-resize;
+}
+
+.s-resize {
+    cursor: s-resize;
+}
+
+.w-resize {
+    cursor: w-resize;
+}
+
+.ns-resize {
+    cursor: ns-resize;
+}
+
+.ew-resize {
+    cursor: ew-resize;
+}
+
+.ne-resize {
+    cursor: ne-resize;
+}
+
+.nw-resize {
+    cursor: nw-resize;
+}
+
+.se-resize {
+    cursor: se-resize;
+}
+
+.sw-resize {
+    cursor: sw-resize;
+}
+
+.nesw-resize {
+    cursor: nesw-resize;
+}
+
+.nwse-resize {
+    cursor: nwse-resize;
+}
+
+/* body {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+        Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+} */
+
+.cursors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cursors>div {
+    flex: 150px;
+    padding: 10px 2px;
+    white-space: nowrap;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 0 5px 5px 0;
+}
+
+.cursors>div:hover {
+    background: #eee;
+}
+
+code {
+    display: inline-block;
+    background-color: #eee;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-size: 32px;
+}
+
+
+/* ================== Цвет текста и фона ================ */
+.text-color {
+    /* background-color: tomato; */
+    background-color: rgba(255, 0, 0, 0.3);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -214,6 +595,11 @@ td[colspan] {
 .autocheck-m2-t2-z41 li {
     color: red;
     list-style :lower-greek;
+    
+}
+
+.autocheck-m2-t2-z41:hover li {
+    color: fuchsia;
 }
 /* ======+++++++++++++?????????????????=========== */
 
@@ -236,9 +622,21 @@ td[colspan] {
 
 
 /* ============= Мод_2 Task_1. Задание 6/28 ============= */
+.common-rule {
+    list-style: upper-roman;
+    font-size: 20px;
+}
+
+.first-rule {
+    color: red;
+}
+
+.last-rule {
+    color: green;
+}
 
 
-
+/* ============= Мод_2 Task_1. Задание 7/28 ============= */
 
 
 
