@@ -183,19 +183,19 @@ td[colspan] {
 
 /* ==== стиль текста ОТВЕТ HTML ==== */
 .answer-html {
-    color: blue;
+    color :tomato;;
     font-size: 18px;
 }
 
 /* ==== стиль текста ОТВЕТ CSS ==== */
 .answer-css {
-    color: red;
+    color :#2196F3;
     font-size: 18px;
 }
 
 /* ============= Мод_2 Task_1. Задание 2/28  ============ */
 .autocheck-m2-t2-z2 p {
-    color: red;
+    color: rgb(140, 0, 255);
     font-size: 20px;
 }
 
@@ -210,28 +210,33 @@ td[colspan] {
     color: red;
 } */
 
-.autocheck-m2-t2-z41 > li {
+/* ======+++++++++++++?????????????????=========== */
+.autocheck-m2-t2-z41 li {
     color: red;
+    list-style :lower-greek;
 }
+/* ======+++++++++++++?????????????????=========== */
 
 .autocheck-m2-t2-z4 > li {
     list-style: none;
-    color: green;
+    color :green;
 }
 
 
 /* ============= Мод_2 Task_1. Задание 5/28 ============= */
-
+.autocheck-m2-t2-z51 li {
+    list-style: none;
+    color: darkorange;
+}
 
 .rule {
     list-style: upper-roman;
     color: navy;
 }
 
-li {
-    list-style: none;
-    color: green;
-}
+
+/* ============= Мод_2 Task_1. Задание 6/28 ============= */
+
 
 
 
