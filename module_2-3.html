@@ -752,15 +752,84 @@
 
             <h2 class="h2_header-style">=== ССЕЛЕКТОРЫ И ВЕС СЕЛЕКТОРА: ИЗБЕГАЕМ ПОВТОРЕНИЯ КОДА. Задача 6/28 (исходник) ===</h2>
             
+            <p style="color:rgb(19, 159, 0); font-size:18px;">
+                Если у элементов есть общие и уникальные правила, то лучшей практикой является<br />
+                создавать для общих правил один отдельный класс и несколько классов для<br />
+                уникальных правил. Подход объединения общего и отделение уникального позволяет<br />
+                избегать повторения кода, что в компьютерных науках называют принципом <br />
+                DRY (don't repeat yourself) - не повторяй свой код. Это один из самых <br />
+                важных принципов для написания простого, понятного и легко поддерживаемого <br />
+                кода, с минимальным количеством ошибок. Его можно применять не только к CSS и классам,<br />
+                но и в большинстве языков программирования, например в JavaScript.<br />
+            </p>
+            
+            <p style="text-indent:40px; background-color: rgb(160, 76, 76); color:rgb(255, 255, 0); font-size:20px;">
+                &#128293; Внимание<br />
+                -------------------------------------------------------<br />
+            </p>
+            
+            <p style="color:rgb(29, 82, 23); font-size:18px;"><b>исходник:</b></p>
+            
+            <ol class="rules1">
+                <li class="common-rule1 first-rule1">Класс - основной селектор для оформления стилей</li>
+                <li class="common-rule1 ">У класса более высокий приоритет, чем у тега</li>
+                <li class="common-rule1">Избегай по возможности сложных селекторов, например сочетания тега и класса</li>
+                <li class="common-rule1 last-rule1">Лучший селектор - это один класс. Но это не всегда возможно.</li>
+            </ol>
+            
+            
+            <h3 class="h3_header-style">============ задание 6 ============</h3>
+            
+            <p class="task-word">
+                Двум элементам с классом common-rule добавлены классы first-rule и last-rule,<br />
+                т.е. создана композиция с классом common-rule.<br />
+                Добавьте CSS правила для класса first-rule и last-rule под текстом с правилом <br />
+                для класса common-rule (почему именно такое расположение будет рассмотрено позже).<br />
+                Для класса first-rule добавьте свойство color и значение red.<br />
+                Для класса last-rule добавьте свойство color и значение green.<br />
+            </p>
+            
+            <h3 class="h3_header-style">============ ОТВЕТ 6 ============</h3>
+            
+            <p>
+                <b class="answer-html">HTML:</b><br />
+            </p>
+            
+            <ol class="rules">
+                <li class="common-rule first-rule">Класс - основной селектор для оформления стилей</li>
+                <li class="common-rule ">У класса более высокий приоритет, чем у тега</li>
+                <li class="common-rule">Избегай по возможности сложных селекторов, например сочетания тега и класса</li>
+                <li class="common-rule last-rule">Лучший селектор - это один класс. Но это не всегда возможно.</li>
+            </ol>
+            <br />
+            
+            <p><b>ОТВЕТ:</b></p>
+            
+            <pre><b class="answer-css">
+                CSS:</b><br />
+                        .common-rule {
+                        list-style: upper-roman;
+                        font-size: 20px;
+                        }
+
+                        .first-rule {
+                        color: red;
+                        }
+
+                        .last-rule {
+                        color :green;
+                        }
+            </pre>
+            <br />
+
+
+            <h2 class="h2_header-style">=== СЕЛЕКТОРЫ И ВЕС СЕЛЕКТОРА: КОМПОЗИЦИЙ КЛАССОВ, ПРИОРИТЕТ ЧЕРЕЗ СУММИРОВАНИЕ РАЗРЯДОВ. Задача 7/28 (исходник) ===</h2>
+            
                 <p style="color:rgb(19, 159, 0); font-size:18px;">
-                    Если у элементов есть общие и уникальные правила, то лучшей практикой является<br />
-                    создавать для общих правил один отдельный класс и несколько классов для<br />
-                    уникальных правил. Подход объединения общего и отделение уникального позволяет<br />
-                    избегать повторения кода, что в компьютерных науках называют принципом <br />
-                    DRY (don't repeat yourself) - не повторяй свой код. Это один из самых <br />
-                    важных принципов для написания простого, понятного и легко поддерживаемого <br />
-                    кода, с минимальным количеством ошибок. Его можно применять не только к CSS и классам,<br />
-                    но и в большинстве языков программирования, например в JavaScript.<br />
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Modi iure odio numquam veritatis, sint officia aliquid 
+                    distinctio ea illum soluta eius, ipsum unde consequuntur, 
+                    excepturi commodi vero. Aut, reprehenderit aliquam!<br />
                 </p>
             
                 <p style="text-indent:40px; background-color: rgb(160, 76, 76); color:rgb(255, 255, 0); font-size:20px;">
@@ -770,60 +839,68 @@
             
                 <p style="color:rgb(29, 82, 23); font-size:18px;"><b>исходник:</b></p>
             
-                <ol class="rules1">
-                    <li class="common-rule1 first-rule1">Класс - основной селектор для оформления стилей</li>
-                    <li class="common-rule1 ">У класса более высокий приоритет, чем у тега</li>
-                    <li class="common-rule1">Избегай по возможности сложных селекторов, например сочетания тега и класса</li>
-                    <li class="common-rule1 last-rule1">Лучший селектор - это один класс. Но это не всегда возможно.</li>
-                </ol>
+                <button class="btn" type="button">Да</button>
+                <button class="btn active" type="button">Нет</button>
+                <a class="link" href="#">Ссылка 1</a>
+                <a class="link active" href="#">Ссылка 2</a>
             
             
-                <h3 class="h3_header-style">============ задание 6 ============</h3>
+                <h3 class="h3_header-style">============ задание 7 ============</h3>
             
                 <p class="task-word">
-                    Двум элементам с классом common-rule добавлены классы first-rule и last-rule,<br />
-                    т.е. создана композиция с классом common-rule.<br />
-                    Добавьте CSS правила для класса first-rule и last-rule под текстом с правилом <br />
-                    для класса common-rule (почему именно такое расположение будет рассмотрено позже).<br />
-                    Для класса first-rule добавьте свойство color и значение red.<br />
-                    Для класса last-rule добавьте свойство color и значение green.<br />
+                    В CSS добавь класс active к селекторам button и link так, чтобы<br />
+                    правило color: red применилось только к элементу button, содержащему<br /> 
+                    одновременно класс btn и active; правило font-weight: 700 применилось <br />
+                    только к элементу a, содержащему одновременно класс link и active.
                 </p>
             
-                <h3 class="h3_header-style">============ ОТВЕТ 6 ============</h3>
+                <h3 class="h3_header-style">============ ОТВЕТ 7 ============</h3>
             
                 <p>
                 <b class="answer-html">HTML:</b><br />
                 </p>
             
-                <ol class="rules">
-                    <li class="common-rule first-rule">Класс - основной селектор для оформления стилей</li>
-                    <li class="common-rule ">У класса более высокий приоритет, чем у тега</li>
-                    <li class="common-rule">Избегай по возможности сложных селекторов, например сочетания тега и класса</li>
-                    <li class="common-rule last-rule">Лучший селектор - это один класс. Но это не всегда возможно.</li>
-                </ol>
+                <button class="btn6" type="button">Да</button>
+                <button class="btn6 active6" type="button">Нет</button>
+                <a class="link6" href="#">Ссылка 1</a>
+                <a class="link6 active6" href="#">Ссылка 2</a>
                 <br />
             
                 <p><b>ОТВЕТ:</b></p>
             
                 <pre><b class="answer-css">
-                            CSS:</b><br />
-                                    .common-rule {
-                                    list-style: upper-roman;
-                                    font-size: 20px;
-                                    }
-                                    
-                                    .first-rule {
-                                    color: red;
-                                    }
-                                    
-                                    .last-rule {
-                                    color :green;
-                                    }
+                CSS:</b><br />
+                        .btn {
+                        border: none;
+                        padding: 0.25rem 1.25rem;
+                        }
+                        
+                        .link {
+                        text-decoration: none;
+                        color: navy;
+                        }
+                        /* Напиши свой код под этой строкой */
+                        .btn.active {
+                        color: red;
+                        }
+                        
+                        .link.active {
+                        font-weight: 700;
+                        }
+
                 </pre>
             <br />
 
 
-                
+            <h2 class="h2_header-style">============== ПРИМЕР. Задача 7/28  =================</h2>
+
+                <h1 class="title8 headline8">Заголовок 1</h1>
+                <h2 class="headline8">Заголовок 2</h2>
+                <h2 class="title8">Заголовок 3</h2>
+            <br />
+
+
+            
 
 
 

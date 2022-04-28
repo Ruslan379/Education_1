@@ -720,6 +720,66 @@ td[colspan] {
 
 
 /* ============= Мод_2 Task_1. Задание 7/28 ============= */
+.btn {
+    border: none;
+    padding: 0.25rem 1.25rem;
+}
+
+.link {
+    text-decoration: none;
+    color: navy;
+}
+
+/* Напиши свой код под этой строкой */
+.btn {
+    color: red;
+}
+
+.link {
+    font-weight: 700;
+}
+
+/* ============= Мод_2 Task_1. ОТВЕТ 7/28 ============= */
+.btn6 {
+    border: none;
+    padding: 0.25rem 1.25rem;
+}
+
+.link6 {
+    text-decoration: none;
+    color: navy;
+}
+
+/* Напиши свой код под этой строкой */
+.btn6.active6 {
+    color: red;
+}
+
+.link6.active6 {
+    font-weight: 700;
+}
+
+
+/* ================== ПРИМЕР. Задание 7/28  ==================== */
+.title8.headline8 {
+    font-family: cursive;
+}
+
+.title8 {
+    font-family: serif;
+}
+
+.headline8 {
+    font-family: sans-serif;
+}
+
+/* ============= Мод_2 Task_1. Задание 8/28 ============= */
+
+
+
+
+
+
 
 
 
