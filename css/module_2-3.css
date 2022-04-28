@@ -595,8 +595,28 @@ p#text-id1.text1 {
 }
 
 
+/* ========= CSS-переменные ========== */
+/* ========= Переопределение значений ========== */
+.alert1 {
+    --alert-text-color: black;
+
+    color: var(--alert-text-color);
+}
+
+.alert1.success1 {
+    --alert-text-color: green;
+}
+
+.alert1.warning1 {
+    --alert-text-color: orange;
+}
+
+.alert1.error1 {
+    --alert-text-color: red;
+}
 
 
+/* ========= F I N A L ========== */
 
 
 
