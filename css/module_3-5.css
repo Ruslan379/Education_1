@@ -1,4 +1,5 @@
 body {
+    line-height: 1.5;
     color: #2a2a2a;
     font-family: 'Montserrat', sans-serif;
     background-color: #f5ebd7;
@@ -121,10 +122,10 @@ body {
     margin: 20px;
 }
 
-body {
+/* body {
     font-family: sans-serif;
     line-height: 1.5;
-}
+} */
 
 
 
