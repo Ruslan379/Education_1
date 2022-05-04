@@ -1,0 +1,97 @@
+/* =============== из К О Н С П Е К Т А =========== */
+
+/* ============= Живой пример таблицы + CSS-разметка ============ */
+
+/* Shift the heading text to the left, by default it is centered */
+/* Сместите текст заголовка влево, по умолчанию он расположен по центру */
+table caption {
+    text-align: center;
+}
+
+/* We "collapse" the frames of adjacent cells */
+/* "Сворачиваем"рамки соседних ячеек */
+table {
+    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+    margin: 3rem;
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+/* 
+  Add a border and padding to the cells, the distance from the content to the border.
+  To control the vertical position, the caption-side property is used.
+*/
+/* Добавьте к ячейкам границу и отступы, расстояние от содержимого до границы. 
+Для управления положением по вертикали используется свойство caption-side. */
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+}
+
+/* ________________________________________________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============= Мод_2 Task_1. Задание 2/12 = CSS-разметка ============ */
+
+/* p {
+    color: red;
+    font-size: 20px;
+} */
+
+
+/* ============= Мод_2 Task_1. Задание 3/12 = CSS-разметка ============ */
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============= Мод_2 Task_2. Задание 1/12 ТЕКСТ: TEXT-INDENT = CSS-разметка ============ */
+
+/* p {
+    text-indent: 40px;
+} */
+
+
+
+
+
+
+/* ========================== Тег <pre> ========================== */
+pre {
+    font: inherit;
+}
+
+
+
+
+
+
+/* ==================    ==================== */
