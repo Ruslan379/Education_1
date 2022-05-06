@@ -36,6 +36,85 @@
     text-align: justify;
 }
 
+/* ================ Свойство text-indent =============== */
+.post-text1 {
+    text-indent: 100px;
+}
+
+
+/* ================ Свойство line-height =============== */
+.text2{
+    font-size: 16px;
+    line-height: 4.5;
+}
+
+
+/* ================ Свойство letter-spacing =============== */
+.post-title4 {
+    letter-spacing: 15px;
+}
+
+.post-text4 {
+    letter-spacing: 10px;
+}
+
+
+/* ================ Свойство word-spacing =============== */
+.text3 {
+    font-size: 24px;
+    word-spacing: 15px;
+}
+
+
+/* ================ Свойство text-shadow =============== */
+.title3 {
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* ================== Многослойная тень ================= */
+.title4 {
+
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 2px 2px 20px #ff0000,
+                 5px 5px 5px #000000;
+}
+
+/* ============ Свойство white-space (normal) =========== */
+
+.text4 {
+    font-size: 24px;
+    white-space: normal;
+}
+
+/* ============ Свойство white-space (nowrap) =========== */
+
+.text5 {
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+/* ============ Свойство white-space (pre) =========== */
+
+.text6 {
+    font-size: 24px;
+    white-space: pre;
+}
+
+/* ============ Свойство white-space (pre-wrap) =========== */
+
+.text7 {
+    font-size: 24px;
+    white-space: pre-wrap;
+}
+
+
+
+
+
+
 
 
 
@@ -107,16 +186,263 @@ p {
 }
 
 /* ============= Мод_2 Task_2. Задание 5/12  ============ */
+.boxes5,
+.cards5,
+.letter5 {
+    font-size: 36px;
+    height: 100px;
+    padding: 1rem;
+    background-color: goldenrod;
+    margin-bottom: 1rem;
+}
+
+.box-485 {
+    font-size: 48px;
+}
+
+.box-725 {
+    font-size: 72px;
+}
+
+.card5{
+    height: 36px;
+    width: 18px;
+}
+
+.card-485 {
+    height: 48px;
+    width: 36px;
+}
+
+.card-725 {
+    height: 72px;
+    width: 48px;
+}
+
+/* Напиши код под этой строкой */
+.box5,
+.card5 {
+    display: inline-block;
+    background-color: blueviolet;
+    vertical-align: top;
+}
+
+.letter5::first-letter {
+    font-size: 72px;
+    vertical-align: top;
+}
 
 
+/* ============= Мод_2 Task_2. Задание 6/12  ============ */
+.boxes6,
+.cards6,
+.letter6 {
+    font-size: 36px;
+    height: 100px;
+    padding: 1rem;
+    background-color: goldenrod;
+    margin-bottom: 1rem;
+}
+
+.box-486 {
+    font-size: 48px;
+}
+
+.box-726 {
+    font-size: 72px;
+}
+
+.card6 {
+    height: 36px;
+    width: 18px;
+}
+
+.card-486 {
+    height: 48px;
+    width: 36px;
+}
+
+.card-726 {
+    height: 72px;
+    width: 48px;
+}
+
+/* Напиши код под этой строкой */
+.box6,
+.card6 {
+    display: inline-block;
+    background-color: blueviolet;
+    vertical-align: middle;
+}
+
+.letter6::first-letter {
+    font-size: 72px;
+    vertical-align: middle;
+}
 
 
+/* ============= Мод_2 Task_2. Задание 7/12  ============ */
+.boxes7,
+.cards7,
+.letter7 {
+    font-size: 36px;
+    height: 100px;
+    padding: 1rem;
+    background-color: goldenrod;
+    margin-bottom: 1rem;
+}
+
+.box-487 {
+    font-size: 48px;
+}
+
+.box-727 {
+    font-size: 72px;
+}
+
+.card7 {
+    height: 36px;
+    width: 18px;
+}
+
+.card-487 {
+    height: 48px;
+    width: 36px;
+}
+
+.card-727 {
+    height: 72px;
+    width: 48px;
+}
+
+/* Напиши код под этой строкой */
+.box7,
+.card7 {
+    display: inline-block;
+    background-color: blueviolet;
+    vertical-align: bottom;
+}
+
+.letter7::first-letter {
+    font-size: 72px;
+    vertical-align: bottom;
+}
+
+/* ============= Мод_2 Task_2. Задание 8/12  ============ */
+.fs36 {
+    font-size: 36px;
+    padding: 1rem;
+}
+
+[data-transform="none"] {
+    text-transform: none;
+}
+
+[data-transform="uppercase"] {
+    text-transform: uppercase;
+}
+
+[data-transform="lowercase"] {
+    text-transform: lowercase;
+}
+
+[data-transform="capitalize"] {
+    text-transform: capitalize;
+}
 
 
+/* ============= Мод_2 Task_2. Задание 9/12  ============ */
+/* body {
+    font-size: 36px;
+    padding: 1rem;
+} */
+
+/* Напиши код под этой строкой */
+.up {
+    font-size: 36px;
+    padding: 1rem;
+    text-decoration: overline wavy red;
+}
+
+.through {
+    font-size: 36px;
+    padding: 1rem;
+    text-decoration: line-through dashed green
+}
+
+.down {
+    font-size: 36px;
+    padding: 1rem;
+    text-decoration: underline solid blue;
+}
+
+.no {
+    font-size: 36px;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.combi {
+    font-size: 36px;
+    padding: 1rem;
+    text-decoration: underline overline double grey;
+}
+
+/* ============= Мод_2 Task_2. Задание 10/12  ============ */
+/* body {
+    font-family: sans-serif;
+    font-size: 36px;
+    padding: 1rem;
+
+} */
+
+/*  offset-x | offset-y | blur-radius | color  */
+.one {
+    font-size: 36px;
+    padding: 1rem;
+    color: blue;
+    text-decoration: underline wavy;
+    margin-bottom: 1rem;
+    text-shadow: 3px 3px 2px hsla(0, 0%, 0%, .5);
+}
+
+.rings {
+    font-size: 36px;
+    padding: 1rem;
+    color: orange;
+    text-shadow: -15px -8px 0 blue,
+                14px -8px 0 black,
+                29px 0 0 green,
+                44px -8px 0 red;
+}
+
+/* ============= Мод_2 Task_2. Задание 11/12  ============ */
+.items {
+    word-spacing: 1rem;
+}
+
+/*  Напиши код под этой строкой */
+.item-less {
+    word-spacing: -.25rem;
+}
+
+.item-normal {
+    word-spacing: normal;
+}
 
 
+/* ============= Мод_2 Task_2. Задание 12/12  ============ */
+.items1 {
+    letter-spacing: .25rem;
+}
 
+/*  Напиши код под этой строкой */
+.item-less1 {
+    letter-spacing: -.1rem;
+}
 
-
+.item-normal1 {
+    letter-spacing: normal;
+}
 
 /* _____________________________ F I N A L   Автопроверки ___________________________ */

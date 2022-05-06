@@ -44,16 +44,20 @@ body {
     list-style-type: none;
 }
 
+
 /* ------ Убираем подчеркивание со ВСЕХ ссылок ------ */
 /* a {text-decoration: none;} */
 .links {
     text-decoration: none;
 }
 
+
 /* --- Задаем ВСЕМ кнопкам тип курсора pointer ------ */
 .buttons {
     cursor: pointer;
 }
+
+
 /* ------ Верхний колонтитул для h1-заголовков ------ */
 .block-title {
     /* font-weight: 900; */
@@ -66,6 +70,25 @@ body {
 
     /* color: var(--color-light); */
 }
+
+
+/* ------------- Стилизация span-ссылок ------------- */
+.span-color {
+    font-weight: 700;
+    font-size: 36px;
+    /* text-decoration: none; */
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 20px #ff0000,
+        5px 5px 5px #000000;
+    color: #a3b990;
+}
+
+
+
+
+
+
+
 /* _____________________________  К О Н Е Ц Типографика _____________________________ */
 
 
