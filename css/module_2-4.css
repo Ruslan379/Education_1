@@ -1,6 +1,44 @@
 /* ================= из К О Н С П Е К Т А -->  Модуль 2 - Занятие 3 ================= */
 
 /* ================ Свойство text-decoration =============== */
+.text1>span {
+    text-decoration: line-through;
+}
+
+.link1 {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* ================ Свойство text-transform =============== */
+.lists2 {
+    list-style-type: none;
+}
+
+.site-nav2 .link2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+
+/* ================ Свойство text-align =============== */
+.post-title2 {
+    text-align: center;
+}
+
+.align-right2 {
+    text-align: right;
+}
+
+.align-justify2 {
+    text-align: justify;
+}
+
+
+
+
 
 
 
@@ -41,6 +79,40 @@
 } */
 
 /* ============= Мод_2 Task_2. Задание 2/12  ============ */
+.columns {
+    text-indent: 40px;
+    column-count: 2;
+}
+
+/* ============= Мод_2 Task_2. Задание 3/12  ============ */
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* ============= Мод_2 Task_2. Задание 4/12  ============ */
+p {
+    line-height: 2;
+}
+
+/* ============= Мод_2 Task_2. Задание 5/12  ============ */
+
+
+
+
+
+
 
 
 
