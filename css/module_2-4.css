@@ -83,33 +83,71 @@
 }
 
 /* ============ Свойство white-space (normal) =========== */
-
 .text4 {
     font-size: 24px;
     white-space: normal;
 }
 
-/* ============ Свойство white-space (nowrap) =========== */
 
+/* ============ Свойство white-space (nowrap) =========== */
 .text5 {
     font-size: 24px;
     white-space: nowrap;
 }
 
-/* ============ Свойство white-space (pre) =========== */
 
+/* ============ Свойство white-space (pre) =========== */
 .text6 {
     font-size: 24px;
     white-space: pre;
 }
 
-/* ============ Свойство white-space (pre-wrap) =========== */
 
+/* ============ Свойство white-space (pre-wrap) =========== */
 .text7 {
     font-size: 24px;
     white-space: pre-wrap;
 }
 
+
+/* ============ Свойство font-size (размер) =========== */
+.text8 {
+    font-size: 40px;
+}
+
+
+/* ============ Свойство font-weight (жирность, вес) =========== */
+/* Поменяем местами жирность текста заголовка и абзаца */
+.title5 {
+    font-weight: 400;
+}
+
+.text9 {
+    font-weight: 700;
+}
+
+
+/* ============ Свойство font-style (начертание текста) =========== */
+.title6 {
+    font-style: italic;
+    font-weight: 700;
+    /* font-style: oblique; */
+    /* font-style: initial; */
+}
+
+.text10 {
+    font-style: normal;
+}
+
+.text11 {
+    font-style: italic;
+}
+.text12 {
+    font-style: oblique;
+}
+
+
+/* ======= Псевдоэлемент ::first-letter (стиль первого символа) ====== */
 
 
 

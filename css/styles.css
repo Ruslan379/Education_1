@@ -38,66 +38,28 @@ body {
 
 
 /* ============= Типографика - ГЛОБАЛЬНАЯ Стилизация некоторых элементов ============= */
-/* --------- Убираем точки со ВСЕХ списков --------- */
+
+/* ============== Убираем точки со ВСЕХ списков ============== */
 /* ul {list-style-type: none;} */
 .lists {
     list-style-type: none;
 }
 
 
-/* ------ Убираем подчеркивание со ВСЕХ ссылок ------ */
+/* ========== Убираем подчеркивание со ВСЕХ ссылок ========== */
 /* a {text-decoration: none;} */
 .links {
     text-decoration: none;
 }
 
 
-/* --- Задаем ВСЕМ кнопкам тип курсора pointer ------ */
+/* ========== Задаем ВСЕМ кнопкам тип курсора pointer ========== */
 .buttons {
     cursor: pointer;
 }
+/* ============================================================== */
 
 
-/* ------ Верхний колонтитул для h1-заголовков ------ */
-.block-title {
-    /* font-weight: 900; */
-    font-size: 50px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color:blue
-
-    /* color: var(--color-light); */
-}
-
-
-/* ------------- Стилизация span-ссылок ------------- */
-.span-color {
-    font-weight: 700;
-    font-size: 36px;
-    /* text-decoration: none; */
-    letter-spacing: 10px;
-    text-shadow: 2px 2px 20px #ff0000,
-        5px 5px 5px #000000;
-    color: #a3b990;
-}
-
-
-
-
-
-
-
-/* _____________________________  К О Н Е Ц Типографика _____________________________ */
-
-
-
-
-
-
-
-/* ***************************************************************/
 
 .main-content {
     /* font-style: normal; */
@@ -109,7 +71,8 @@ body {
 }
 
 .h1_header-style {
-    font-style: normal;
+    /* font-style: normal; */
+    /* font-style: italic; */
     font-weight: 700;
     font-size: 50px;
     line-height: 17px;
@@ -119,12 +82,59 @@ body {
     margin-bottom: 100px;
 }
 
-/* ==== Произвольная картинка от генератора ==== */
+/* ============ Верхний колонтитул для h1-заголовков ============ */
+.block-title {
+    /* font-weight: 900; */
+    font-style: italic;
+    /* font-style: normal; */
+    font-size: 50px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: blue
+        /* color: var(--color-light); */
+}
+.h2_header-style {
+    /* font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px; */
+    color: #275833;
+
+    /* margin-bottom: 20px; */
+}
+
+.h3_header-style {
+    /* font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px; */
+    color: #2535c2;
+
+    /* margin-bottom: 20px; */
+}
+
+/* ================ Стилизация span-ссылок ================ */
+.span-color {
+    /* font-style: italic; */
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 36px;
+    /* text-decoration: none; */
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 20px #ff0000,
+        5px 5px 5px #000000;
+    color: #a3b990;
+}
+
+/* ========= Произвольная картинка от генератора ========= */
 .random-picture {
     margin-left: 640px;
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
 
 /* ============== ЛОГОТИП ФУТЕРА (logo-footer)============= */
 .logo-footers {
@@ -154,7 +164,6 @@ body {
 
     color: rgb(66, 46, 46);
     /* background-color: #ffeb3b; */
-
 }
 
 .logo-footers:hover,
@@ -169,32 +178,11 @@ body {
     background-color: #5be61a;
     color: rgb(255, 0, 0);
 }
-
-
 /* _________________ К О Н Е Ц  ЛОГОТИП ФУТЕРА _________________ */
 
-.h2_header-style {
-    /* font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px; */
-    color: #275833;
 
-    /* margin-bottom: 20px; */
-}
 
-.h3_header-style {
-    /* font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px; */
-    color: #2535c2;
-
-    /* margin-bottom: 20px; */
-
-}
-
-/* === КОНСПЕКТ + АВТОПРОВЕРКИ === */
+/* ================== КОНСПЕКТ + АВТОПРОВЕРКИ ================== */
 .h01_header-style {
     font-style: normal;
     font-weight: 700;
@@ -206,7 +194,6 @@ body {
     /* margin-bottom: 100px; */
 }
 
-
 .task-word,
 .accent_span {
     font-style: normal;
@@ -217,8 +204,11 @@ body {
 
     /* margin-bottom: 20px; */
 }
+/* _______________  К О Н Е Ц КОНСПЕКТ+АВТОПРОВЕРКИ ____________ */
 
-/* ==== стиль текста ОТВЕТ HTML ==== */
+
+
+/* ================== Cтиль текста ОТВЕТ HTML ================== */
 .answer-html {
     color: tomato;
     ;
@@ -230,19 +220,13 @@ body {
     color: #2196F3;
     font-size: 18px;
 }
-
-/* _____________________________________________________________________________________ */
-
+/* _______________  К О Н Е Ц Cтиль текста ОТВЕТ HTML ____________ */
 
 
 
-
-
-
-
-/* ========================== из А В Т О П Р О В Е Р К И  № 2 ====================== */
-/* =============================== Стили ТАБЛИЦЫ =============================== */
-/* === Мод_1 Task_2. Задание 5/5 Сверстай таблицу + CSS-разметка === */
+/* ================= из А В Т О П Р О В Е Р К И  № 2 ============= */
+/* ======================== Стили ТАБЛИЦЫ ======================== */
+/* == Мод_1 Task_2. Задание 5/5 Сверстай таблицу + CSS-разметка == */
 caption {
     font-size: 20px;
     margin-bottom: 1rem;
@@ -264,4 +248,13 @@ td[colspan] {
     background-color: #eee;
 }
 
-/* ___________________________ F I N A L Стили ТАБЛИЦЫ _________________________ */
+/* _____________________ F I N A L Стили ТАБЛИЦЫ ___________________ */
+
+
+
+
+
+
+/* _____________________________  К О Н Е Ц Типографика _____________________________ */
+
+/* __________________________________________________________________________________ */
