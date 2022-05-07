@@ -149,6 +149,193 @@ img {
 }
 
 /* =========== Схлопывание вертикальных отступов ========== */
+.box5 {
+    width: 200px;
+    height: 100px;
+}
+
+.top1 {
+    margin-bottom: 20px;
+    background-color: teal;
+}
+
+.bottom {
+    margin-top: 40px;
+    background-color: palevioletred;
+}
+
+/* =========== Схлопывание вертикальных отступов ========== */
+.outer-box {
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+}
+
+.inner-box {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    background-color: palevioletred;
+}
+
+
+/* ==================== Свойство border =================== */
+.box6 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid tomato;
+}
+
+
+
+/* ==================== Индивидуальные рамки =================== */
+.box7 {
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid tomato; */
+    
+
+    /* Установит стили верхней рамки */
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: blue;
+
+    /* Установит стили правой рамки */
+    border-right-width: 5px;
+    border-right-style: dotted;
+    border-right-color: black;
+
+    /* Установит стили нинжней рамки */
+    border-bottom-width: 7px;
+    border-bottom-style: dashed;
+    border-bottom-color: palevioletred;
+
+    /* Установит стили левой рамки */
+    border-left-width: 9px;
+    border-left-style: dashed;
+    border-left-color: green;
+}
+
+
+/* ==================== Закруглённая рамка =================== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.box-1 {
+    width: 180px;
+    height: 80px;
+    background-color: #f44336;
+
+    /*  The value can be pixels  */
+    border-radius: 10px;
+}
+
+.box-2 {
+    width: 120px;
+    height: 120px;
+    background-color: #2196f3;
+
+    /*  The value can be percent  */
+    border-radius: 20%;
+}
+
+.box-3 {
+    width: 150px;
+    height: 150px;
+    background-color: #4caf50;
+
+    /*  If the block is a square, settings the radius to 50% will transform it to a circle  */
+    border-radius: 50%;
+}
+
+.box-1,
+.box-2 {
+    margin-bottom: 20px;
+}
+
+/* ==================== Фиксированная ширина =================== */
+/* body {
+    background-color: #f9f9fd;
+} */
+
+.box8 {
+    width: 280px;
+    height: 100px;
+
+    /* Горизонтальное центрирование блочных элементов */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+
+        /* Горизонтальное центрирование блочных элементов - краткая запись */
+    margin: 0 auto;
+}
+
+.indigo {
+    background-color: #3f51b5;
+}
+
+.green {
+    background-color: #4caf50;
+}
+
+.amber {
+    background-color: #ffc107;
+}
+
+
+/* ========== Горизонтальное центрирование блочных элементов ========= */
+/* body {
+    background-color: #f9f9fd;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 20px;
+
+} */
+
+.parent {
+    line-height: 1.5;
+    color: #fff;
+    font-size: 20px;
+
+    background-color: #3f51b5;
+}
+
+.child {
+    line-height: 1.5;
+    color: #fff;
+    font-size: 20px;
+
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #4caf50;
+    text-align: center;
+}
+
+.parent,
+.child {
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+/* ========================== Элемент-контейнер ========================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
