@@ -61,11 +61,11 @@
 }
 
 /* ============= Глобальный border-box ============ */
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: border-box;
-}
+} */
 .box4 {
     /* box-sizing: content-box; */
     width: 150px;
@@ -77,11 +77,11 @@
 }
 
 /* ================= Свойство padding ================ */
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: border-box;
-}
+} */
 
 /* body {
     font-family: sans-serif;
@@ -98,11 +98,11 @@
 }
 
 /* ================= Свойство margin ================ */
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: border-box;
-}
+} */
 
 /* body {
     font-family: sans-serif;
@@ -110,7 +110,7 @@
     color: #212121;
 } */
 
-img {
+img.post-image1 {
     display: block;
     max-width: 100%;
     height: auto;
@@ -218,11 +218,11 @@ img {
 
 
 /* ==================== Закруглённая рамка =================== */
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: border-box;
-}
+} */
 
 .box-1 {
     width: 180px;
@@ -334,7 +334,62 @@ img {
 
 
 
+/* ========================== Модуль 3. Вебинар 5. Блочная модель ========================= */
+.box9 {
+    display: inline-block;
+    /* margin-bottom: 50px; */
+    /* padding-bottom: 50px; */
+    border: 5px solid rgb(71, 83, 255);
+    padding: 20px;
+    margin: 20px;
+    background-color: yellow;
+    outline: 3px solid tomato;
+    width: 200px;
+    
+}
 
+
+.container {
+    width: 220px;
+    height: 68px;
+    margin: 0 auto;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+    border: 2px solid black;
+    border-radius: 3px;
+
+    /* line-height: 1; */
+    /* margin: 0 auto; */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 2px solid tomato;
+    background-color: black;
+    color: tomato;
+}
+
+
+.btn-icon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 6px;
+    background-color: blue;
+    vertical-align: bottom;
+}
+
+  
 
 
 

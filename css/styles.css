@@ -1,4 +1,17 @@
+/* ========== Установка войства box-sizing: content-box ========== */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/* ============================================================== */
+
 body {
+    margin: 0;
     line-height: 1.5;
     color: #2a2a2a;
     font-family: 'Montserrat', sans-serif;
@@ -137,7 +150,7 @@ body {
 
 
 /* ============== ЛОГОТИП ФУТЕРА (logo-footer)============= */
-.logo-footers {
+.logo-footers2 { /* сейчас не подключен */
     box-sizing: content-box;
     width: 140px;
     height: 130px;
@@ -148,35 +161,52 @@ body {
     /* margin-bottom: 30px; */
     margin-left: 1717px;
 
-    text-align: center;
+    /* text-align: center; */
+
+    border-radius: 20px;
 
     background-color: #e6a51a;
     /* color: #7dd11d; */
 }
 
 .logo-footer {
+    display: inline-block;
+    box-sizing: content-box;
+    
+    width: 140px;
+    height: 131px;
+    border: 3px solid rgb(66, 46, 46);
+    padding: 10px;
+    /* margin: 100px; */
+    margin-top: 0px;
+    /* margin-bottom: 30px; */
+    margin-left: 1717px;
+    
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.67;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
 
+    border-radius: 20px;
+
     color: rgb(66, 46, 46);
+    background-color: #e6a51a;
     /* background-color: #ffeb3b; */
 }
 
-.logo-footers:hover,
-.logo-footers:focus {
+.logo-footer:hover,
+.logo-footer:focus {
     border: 3px solid rgb(255, 0, 0);
     background-color: #1ac7e6;
     color: rgb(255, 0, 0);
 }
 
-.logo-footers:active {
+.logo-footer:active {
     border: 3px solid rgb(29, 90, 10);
     background-color: #5be61a;
-    color: rgb(255, 0, 0);
+    color: rgb(38, 78, 5);
 }
 /* _________________ К О Н Е Ц  ЛОГОТИП ФУТЕРА _________________ */
 
