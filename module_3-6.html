@@ -8,6 +8,10 @@
     
     <title>Module_3-6</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -58,22 +62,126 @@
         <!-- ============ Секция_1 КОНСПЕКТ - Модуль 3 - Занятие 6 - Flexbox (____) =========== -->
         <section>
     
-            <h1 id="conspectus" class="h1_header-style">---------- КОНСПЕКТ: Модуль 3 - Занятие 6 - Flexbox ----------</h1>
+        <h1 id="conspectus" class="h1_header-style">---------- КОНСПЕКТ: Модуль 3 - Занятие 6 - Flexbox ----------</h1>
     
+            <h2 class="h2_header-style">========== Основные концепции <span class="block-title">Flexbox</span>===========</h2>
+
+            <h2 class="h2_header-style">============ Терминология Flexbox ============</h2>
+    
+                <img src="./img/basic-terminology.svg" 
+                alt="Блочная модель" width="1000"
+                />
+    
+                <pre>
+                    <b>main axis</b>  - главная ось flex-контейнера, вдоль которой располагаются элементы. Она не обязательно горизонтальная, её
+                    направление контролируется свойством flex-direction.
+                    <b>main-start и main-end</b> - элементы в контейнере всегда располагаются от main-start (начало главной оси) и до main-end
+                    (конец главной оси).
+                    <b>cross axis</b> - поперечная ось, которая всегда перпендикулярна главной оси. Её направление зависит от главной оси и явно не
+                    устанавливается.
+                    <b>cross-start и cross-end</b> - начало и конец поперечной оси, вдоль которой располагаются строки элементов.
+                </pre>
+            <br />
+                
+
             <h2 class="h2_header-style">============ Свойство display ============</h2>
-    
-            <ul class="menu">
-                    <li class="item"><a href="" class="link">Home page</a></li>
-                    <li class="item"><a href="" class="link">Blog</a></li>
-                    <li class="item"><a href="" class="link">Podcasts</a></li>
-                    <li class="item"><a href="" class="link">Contacts</a></li>
-            </ul>
-    
+
+                <ul class="menu">
+                    <li class="item"><a href="" class="link">Главная</a></li>
+                    <li class="item"><a href="" class="link">Блог</a></li>
+                    <li class="item"><a href="" class="link">Подкасты</a></li>
+                    <li class="item"><a href="" class="link">Контакты</a></li>
+                </ul>
+            <br />
+
+
+            <h2 class="h2_header-style">==========================================</h2>
+
+                <ul class="menu1">
+                    <li class="item1"><a href="" class="link1">Home page</a></li>
+                    <li class="item1"><a href="" class="link1">Blog</a></li>
+                    <li class="item1"><a href="" class="link1">Podcasts</a></li>
+                    <li class="item1"><a href="" class="link1">Contacts</a></li>
+                </ul>
+            <br />
+
+
+            <h2 class="h2_header-style">========= Свойство flex-direction =========</h2>
+
+                <ul class="menu2">
+                    <li class="item2"><a href="" class="link2">Home page</a></li>
+                    <li class="item2"><a href="" class="link2">Blog</a></li>
+                    <li class="item2"><a href="" class="link2">Podcasts</a></li>
+                    <li class="item2"><a href="" class="link2">Contacts</a></li>
+                </ul>
+                
+                <ul class="menu2 reversed2">
+                    <li class="item2"><a href="" class="link2">Home page</a></li>
+                    <li class="item2"><a href="" class="link2">Blog</a></li>
+                    <li class="item2"><a href="" class="link2">Podcasts</a></li>
+                    <li class="item2"><a href="" class="link2">Contacts</a></li>
+                </ul>
+            <br />
+
+
+            <h2 class="h2_header-style">========= Свойство justify-content =========</h2>
+
+                <code>justify-content: flex-start</code>
+                <ul class="menu3">
+                    <li class="item3"><a href="" class="link3">Home page</a></li>
+                    <li class="item3"><a href="" class="link3">Blog</a></li>
+                    <li class="item3"><a href="" class="link3">Podcasts</a></li>
+                    <li class="item3"><a href="" class="link3">Contacts</a></li>
+                </ul>
+                
+                <code>justify-content: flex-end</code>
+                <ul class="menu3 flex-end3">
+                    <li class="item3"><a href="" class="link3">Home page</a></li>
+                    <li class="item3"><a href="" class="link3">Blog</a></li>
+                    <li class="item3"><a href="" class="link3">Podcasts</a></li>
+                    <li class="item3"><a href="" class="link3">Contacts</a></li>
+                </ul>
+                
+                <code>justify-content: center</code>
+                <ul class="menu3 center3">
+                    <li class="item3"><a href="" class="link3">Home page</a></li>
+                    <li class="item3"><a href="" class="link3">Blog</a></li>
+                    <li class="item3"><a href="" class="link3">Podcasts</a></li>
+                    <li class="item3"><a href="" class="link3">Contacts</a></li>
+                </ul>
+                
+                <code>justify-content: space-between</code>
+                <ul class="menu3 space-between3">
+                    <li class="item3"><a href="" class="link3">Home page</a></li>
+                    <li class="item3"><a href="" class="link3">Blog</a></li>
+                    <li class="item3"><a href="" class="link3">Podcasts</a></li>
+                    <li class="item3"><a href="" class="link3">Contacts</a></li>
+                </ul>
+            <br />
+
+
+            <h2 class="h2_header-style">========= Свойство align-items =========</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
         </section>
-        <br>
-        <br>
-        <br>
+        <br/>
+        <br/>
+        <br/>
         <!-- ============ Секция_2 АВТОПРОВЕРКА - Модуль 3 - Занятие 6 - Flexbox (____) =========== -->
         <Section>
             
@@ -115,6 +223,9 @@
             <h1 class="h1_header-style">============ З А Ч Е Т 6-ой Ч А С Т И !!! ============</h1>
     
         </Section>
+        <br />
+        <br />
+        <br />
     
     </div>
     </main>

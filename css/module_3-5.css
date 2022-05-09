@@ -418,34 +418,6 @@ img.post-image1 {
 
 
 
-/* ========================== из А В Т О П Р О В Е Р К И  № 2 ====================== */
-
-/* === Мод_1 Task_2. Задание 5/5 Сверстай таблицу + CSS-разметка === */
-caption {
-    font-size: 20px;
-    margin-bottom: 1rem;
-}
-
-thead {
-    background-color: #555;
-    color: #fff;
-}
-
-td,
-th {
-    padding: 0.5rem 1rem;
-    border: 1px solid #888;
-    text-align: center;
-}
-
-td[colspan] {
-    background-color: #eee;
-}
-/* ___________________________ F I N A L   Автопроверки № 2_________________________ */
-
-
-
-
 
 
 

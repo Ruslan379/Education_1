@@ -1,6 +1,207 @@
 /* ================= из К О Н С П Е К Т А -->  Модуль 3 - Занятие 6 ================= */
 
-/* ================ Тег <pre> =============== */
+/* ================ Свойство display =============== */
+.menu {
+    display: flex;
+    /* display: inline-flex; */
+}
+
+/* =================================================== */
+/* * {
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: sans-serif;
+    background-color: #f9f9fd;
+} */
+
+.menu1 {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    border-radius: 4px;
+    background-color: #2196f3;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    /*  Making ul.menu a Flex container  */
+    
+    /* outline: 3px solid tomato; */
+}
+
+.menu1>.item1:not(:last-child) {
+    margin-right: 10px;
+
+    /* outline: 2px solid red; */
+}
+
+.menu1 .link1 {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+
+    /* outline: 4px solid green; */
+}
+
+.menu1 .link1:hover {
+    text-decoration: underline;
+}
+
+/* ================ Свойство flex-direction =============== */
+/* * {
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: sans-serif;
+    background-color: #f9f9fd;
+} */
+
+.menu2 {
+    /*  Making ul.menu a Flex container  */
+    display: flex;
+
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+    border-radius: 4px;
+    background-color: #2196f3;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    
+    /* outline: 3px solid green; */
+}
+
+.menu2.reversed2 {
+    /*  We rotate the main axis from right to left  */
+    flex-direction: row-reverse;
+    margin-top: 20px;
+
+    /* outline: 7px solid rgb(255, 0, 55); */
+}
+
+.menu2>.item2:not(:last-child) {
+    margin-right: 10px;
+
+    /* outline: 3px solid tomato; */
+}
+
+.menu2.reversed2>.item2:not(:last-child) {
+    margin-right: 0;
+    margin-left: 10px;
+
+    /* outline: 3px solid green; */
+}
+
+.menu2 .link2 {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+
+    /* outline: 3px solid rgb(0, 0, 0); */
+}
+
+.menu2 .link2:hover {
+    text-decoration: underline;
+}
+
+
+/* ================ Свойство justify-content =============== */
+/* * {
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: sans-serif;
+    background-color: #f9f9fd;
+} */
+
+code {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+
+    outline: 3px solid tomato;
+}
+
+.menu3 {
+    display: flex;
+    padding: 15px;
+    margin: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    border-radius: 4px;
+    background-color: #2196f3;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    outline: 3px solid rgb(6, 21, 228);
+}
+
+.menu3.flex-end3 {
+    justify-content: flex-end;
+}
+
+.menu3.center3 {
+    justify-content: center;
+}
+
+.menu3.space-between3 {
+    justify-content: space-between;
+}
+
+.menu3>.item3:not(last-child) {
+    margin-right: 10px;
+
+    outline: 3px solid tomato;
+}
+
+.menu3 .link3 {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+}
+
+.menu3 .link3:hover {
+    text-decoration: underline;
+}
+
+
+/* ================ Свойство align-items =============== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
