@@ -164,11 +164,18 @@ img.post-image1 {
     background-color: palevioletred;
 }
 
-/* =========== Схлопывание вертикальных отступов ========== */
+/* =========== Выпадение вертикальных отступов ========== */
 .outer-box {
+    /* display: block; */
+    display: inline-block;
     width: 200px;
     height: 200px;
+    border: 3px solid blue;
+    /* padding: 0; */
+    /* margin-top: 0; */
     background-color: teal;
+
+    outline: 2px solid red;
 }
 
 .inner-box {
@@ -176,6 +183,8 @@ img.post-image1 {
     height: 100px;
     margin-top: 40px;
     background-color: palevioletred;
+
+    outline: 2px solid white;
 }
 
 
