@@ -33,7 +33,7 @@
     display: inline-flex;
     height: 164px;
     width: 164px;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
