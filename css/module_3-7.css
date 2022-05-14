@@ -1,47 +1,51 @@
 /* ================= из К О Н С П Е К Т А -->  Модуль 4 - Занятие 7 ================= */
 
 /* ================ Свойство background-image =============== */
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
     font-family: sans-serif;
     line-height: 1.5;
     color: #212121;
-}
+} */
 
-.tile-set {
-    display: flex;
-    justify-content: center;
-}
-
-.tile {
+.tile1 {
     padding: 10px;
     text-align: center;
     border: 2px dashed #2a2a2a;
     border-radius: 4px;
+
+    background-color: tomato;
 }
 
-.tile:not(:last-child) {
+.tile-set1 {
+    display: flex;
+    justify-content: center;
+}
+
+.tile1:not(:last-child) {
     margin-right: 10px;
 }
 
-.icon {
+.icon1 {
     display: inline-flex;
-    height: 64px;
-    width: 64px;
-    border-radius: 50%;
+    height: 164px;
+    width: 164px;
+    /* border-radius: 50%; */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
+    outline: 2px solid green;
 }
 
-.icon.with-bg {
+.icon1.with-bg1 {
     background-color: #ff9800;
 }
 
-.icon.with-icon {
+.icon1.with-icon1 {
     background-image: url("https://cdn2.iconfinder.com/data/icons/avatars-60/5985/34-Father-512.png");
 }
 
