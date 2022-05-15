@@ -1,4 +1,125 @@
-/* =============== из К О Н С П Е К Т А =========== */
+/* ================== ДЕКОРАТИВНЫЙ ФОН этой страницы module_№-№ (section-main-page)================== */
+
+.section-main-page {
+    /* display: flex; */
+    /* padding-top: 10px; */
+
+    /* text-align: center; */
+
+    /* background-color: rgb(240, 238, 157); */
+
+    background-image: url("https://picsum.photos/640/480");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    /* background-size: auto; */
+    background-size: 1200px; 
+    /* background-size: contain; */
+    /* background-size: cover; */
+
+    /* opacity: 0.7; */
+}
+
+/* ______________________  К О Н Е Ц ДЕКОРАТИВНЫЙ ФОН этой страницы module_№-№   ___________________ */
+
+
+
+/* ================= Стилизаци LOGO в этой страницы module_№-№ (section-main-page) ================= */
+/* ================ Сдвиг LOGO вправо этой страницы module_№-№ (section-main-page) ================ */
+.logo-main-page {
+    display: flex;
+
+    width: 300px;
+    height: 300px;
+
+    position: fixed;
+    top: 10px;
+    right: 40px;
+    /* left: 30px; */
+
+    /* margin-top: 20px; ---- */
+    /* margin-left: 30px; */
+
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    /* padding: 0.5em; */
+    /* padding-left: 50%; */
+
+    /* outline: 2px solid tomato; */
+}
+
+.logo-main-page img {
+    /* display: block; */
+    height: 90%;
+    width: 90%;
+    padding: 14%;
+
+    border: 2px solid var(--color-light);
+    border-radius: 20%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.452),
+        6px 6px 6px rgba(255, 254, 254, 0.452);
+
+
+    /* margin-left: auto; */
+
+    /* object-fit: contain; */
+    /* object-fit: cover; */
+    /* object-fit: scale-down; */
+    /* object-fit: none; */
+
+    /* object-position: left bottom; */
+
+    /* outline: 2px solid rgb(25, 0, 255); */
+}
+
+
+.logo-main-page img:hover,
+.logo-main-page img:focus {
+
+    border: 3px solid rgb(255, 0, 0);
+    background-color: #1ac7e6;
+    color: rgb(255, 0, 0);
+
+    opacity: 0.5;
+
+    /* transform: scale(1.1); */
+    transform: rotate(360deg);
+
+    /* transition: scale 500ms linear, transform 500ms ease-in-out 500ms; */
+    transition-duration: 1500ms;
+}
+
+.logo-main-page img:active {
+    transform: scale(1.1);
+    transition-duration: 200ms;
+
+    border: 3px solid rgb(29, 90, 10);
+    background-color: #5be61a;
+    color: rgb(38, 78, 5);
+}
+
+/* .page {
+    position: fixed;
+    top: 10px;
+    right: 40px
+} */
+/* __________________  К О Н Е Ц ССдвиг LOGO вправо этой страницы module_№-№ _______________ */
+
+
+/* ________________________________________________________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================== из К О Н С П Е К Т А ================================ */
 
 /* ============= Живой пример таблицы + CSS-разметка ============ */
 

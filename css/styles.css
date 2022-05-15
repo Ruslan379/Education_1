@@ -366,7 +366,7 @@ td[colspan] {
 
 .section-main {
     /* display: flex; */
-    padding-top: 10px;
+    /* padding-top: 10px; */
 
     /* text-align: center; */
 
@@ -388,16 +388,21 @@ td[colspan] {
 
 
 
-
-/* ======================= Сдвиг LOGO вправо и вниз (index.html)======================= */
+/* ======================= Стилизаци LOGO в header (index.html)======================= */
+/* ==================== Сдвиг LOGO вправо и вниз (index.html)==================== */
 .logo-main {
     display: flex;
     
     width: 300px;
     height: 300px;
 
-    /* margin-top: 20px; */
-    margin-left: 30px;
+    position: fixed;
+    left: 30px;
+    top: 10px;
+    /* right: 40px; */
+
+    /* margin-top: 20px; ---- */
+    /* margin-left: 30px; */
     
     justify-content: flex-end;
     align-items: flex-end;
@@ -436,8 +441,6 @@ td[colspan] {
 .logo-main img:hover,
 .logo-main img:focus {
 
-    
-
     border: 3px solid rgb(255, 0, 0);
     background-color: #1ac7e6;
     color: rgb(255, 0, 0);
@@ -459,10 +462,6 @@ td[colspan] {
     background-color: #5be61a;
     color: rgb(38, 78, 5);
 }
-
-
-
-
 
 /* __________________  К О Н Е Ц Сдвиг LOGO вправо и вниз (index.html) _______________ */
 
