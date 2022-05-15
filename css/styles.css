@@ -542,6 +542,12 @@ td[colspan] {
 .nav-item:active {
     color: greenyellow;
 }
+
+.active {
+    background-color: rgb(255, 136, 115);
+    color: rgb(255, 236, 236);
+}
+
 /* ___________________  К О Н Е Ц контента внутри ОСНОВНЫХ ССЫЛОК -(nav) (index.html)  ________________ */
 
 
