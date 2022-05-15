@@ -53,6 +53,7 @@
                             <li class="nav-item"><a href="./module_3-5.html">Модуль 3 - Занятие 5 - Блочная модель</a></li>
                             <li class="nav-item"><a href="./module_3-6.html">Модуль 3 - Занятие 6 - Flexbox</a></li>
                             <li class="nav-item"><a href="./module_3-7.html">Модуль 4 - Занятие 7 - Декоративные эффекты и элементы</a></li>
+                            <li class="nav-item"><a href="./module_3-8.html">Модуль 4 - Занятие 8 - Векторная графика</a></li>
                         </ul>
                     </div>
                 </div>
@@ -92,16 +93,284 @@
 
             <h2 class="h2_header-style">============ Свойство background-repeat ============</h2>
 
-                <!-- <ul class="menu">
-                    <li class="item"><a href="" class="link">Главная</a></li>
-                    <li class="item"><a href="" class="link">Блог</a></li>
-                    <li class="item"><a href="" class="link">Подкасты</a></li>
-                    <li class="item"><a href="" class="link">Контакты</a></li>
-                </ul> -->
+                <div class="container2">
+                    <div class="tile-set2">
+                        <div class="tile2 no-repeat2"></div>
+                        <div class="tile2 repeat-x2"></div>
+                        <div class="tile2 repeat-y2"></div>
+                        <div class="tile2 repeat2"></div>
+                    </div>
+                </div>
+            <br />
+
+            
+            <h2 class="h2_header-style">============ Свойство background-position ============</h2>
+            
+                <pre>
+                    /* Поставит фоновое изображение по центру */
+                    background-position: 50% 50%;
+
+                    /* Поставит фоновое изображение 100px от левого края и 200px от верха */
+                    background-position: 100px 200px;
+
+                    /* Поставит фоновое изображение в нижний праый угол */
+                    background-position: right bottom;
+
+                    /* Поставит фоновое изображение в верхний левый угол */
+                    background-position: left top;
+                </pre>
+            <br />
+            
+            <h2 class="h2_header-style">================ Позиция со смещением ================</h2>
+            
+                <pre>
+                    Чтобы не привязываться к размерам элемента и не задавать позицию фона жёстко, можно использовать синтаксис позиции со
+                    смещением.
+
+                    backrgound-position: x смещение-x y смещение-y
+                    Например, если необходимо поставить фон в нижний правый угол элемента произвольных размеров так, чтобы фон отставал от
+                    границ на 30px справа и 20px снизу.
+
+                    backrgound-position: right 30px bottom 20px
+                </pre>
             <br />
 
 
+            <h2 class="h2_header-style">============ Свойство background-size ============</h2>
             
+                <pre>
+                        По умолчанию браузер не изменяет размер фонового изображения. Если картинка будет больше или меньше размера элемента,
+                    будет пустое пространство, не занятое фоном, или наоборот, фон будет виден только частично.
+                    
+                    background-size: auto | значение | cover | contain
+                    Это свойство позволяет подкорректировать размеры избражения, указав необходимую ширину и высоту. Если не указать высоту,
+                    она будет высчитана автоматически, сохраняя пропорции.
+                    
+                    /* Исходные размеры изображения, значение по умолчанию */
+                    background-size: auto auto;
+                    
+                    /* Ширина 200px, высота будет пропорциональна */
+                    background-size: 200px;
+                    
+                    /* Ширина 200px, высота 300px */
+                    background-size: 200px 300px;
+                    Значения contain и cover
+                    Значением также могут быть два зарезервированных слова - contain и cover. Они стремятся вместить в контейнер фоновое
+                    изображение по максимуму, только одно за счёт обрезания лишнего, а другое за счёт появления пустого пространства в
+                    контейнере.
+                    
+                    (картинка с примером)
+
+
+                    Значение contain:
+                    
+                    Гарантированно сохраняет пропорции изображения.
+                    Изображению задаются максимально возможнные размеры (не больше оригинала), при которых оно полностью помещается в
+                    элемент.
+                    Изображение может не закрыть весь фон элемента по вертикали или горизонтали, если пропорции блока и изображения не
+                    совпадают.
+                    Значение cover:
+                    
+                    Гарантированно сохраняет пропорции изображения.
+                    Изображению задаются минимальные размеры, при которых оно зальёт фон всего элемента.
+                    Если пропорции изображения и элемента разные, часть изображения, по вертикали или горизонтали, визуально обрезается.
+                    Нажимая на кнопки в примере, вы изменяете значение свойства background-size. По умолчанию установлено значение auto.
+                </pre>
+            <br />
+
+
+            <h2 class="h2_header-style">============ Свойство background-attachment ============</h2>
+            
+                <div class="container3">
+                    <div class="box3"></div>
+                    <div class="box3"></div>
+                    <div class="box3"></div>
+                    <div class="box3"></div>
+                </div>
+            <br />
+
+            
+            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            
+                <div class="canvas4"></div>
+            <br />
+
+
+            <h2 class="h2_header-style">============ Свойство object-fit ============</h2>
+            
+            <figure class="base5">
+                <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                    alt="">
+                <figcaption class="label5">Оригинал</figcaption>
+            </figure>
+            
+            <div class="container5">
+                <div class="card-set5">
+                    <figure class="card5">
+                        <div class="thumb5">
+                            <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                                alt="">
+                        </div>
+                        <figcaption class="label5">object-fit: fill</figcaption>
+                    </figure>
+            
+                    <figure class="card5">
+                        <div class="thumb5">
+                            <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                                alt="">
+                        </div>
+                        <figcaption class="label5">object-fit: contain</figcaption>
+                    </figure>
+            
+                    <figure class="card5">
+                        <div class="thumb5">
+                            <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                                alt="">
+                        </div>
+                        <figcaption class="label5">object-fit: cover</figcaption>
+                    </figure>
+            
+                    <figure class="card5">
+                        <div class="thumb5">
+                            <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                                alt="">
+                        </div>
+                        <figcaption class="label5">object-fit: scale-down</figcaption>
+                    </figure>
+            
+                    <figure class="card5">
+                        <div class="thumb5">
+                            <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                                alt="">
+                        </div>
+                        <figcaption class="label5">object-fit: none</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <br />
+
+
+            <h2 class="h2_header-style">================ Свойство object-position ================</h2>
+            
+                <div class="container6">
+                    <div class="card-set6">
+                        <figure class="card6">
+                            <div class="thumb6">
+                                <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                                    alt="">
+                            </div>
+                            <figcaption class="label6">
+                                <span>object-fit: fill</span>
+                                <span>object-position: 50px 50px</span>
+                            </figcaption>
+                        </figure>
+                    
+                        <figure class="card6">
+                            <div class="thumb6">
+                                <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                                    alt="">
+                            </div>
+                            <figcaption class="label6">
+                                <span>object-fit: contain</span>
+                                <span>object-position: left bottom</span>
+                            </figcaption>
+                        </figure>
+                    
+                        <figure class="card6">
+                            <div class="thumb6">
+                                <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                                    alt="">
+                            </div>
+                            <figcaption class="label6">
+                                <span>object-fit: cover</span>
+                                <span>object-position: 20% 30px</span>
+                            </figcaption>
+                        </figure>
+                    
+                        <figure class="card6">
+                            <div class="thumb6">
+                                <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=320&w=240"
+                                    alt="">
+                            </div>
+                            <figcaption class="label6">
+                                <span>object-fit: scale-down</span>
+                                <span>object-position: right top</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            <br />
+
+
+            <h2 class="h2_header-style">============ Псевдоэлементы. Свойство content ============</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            
+            <h2 class="h2_header-style">============ Псевдоэлементы. Свойство content ============</h2>
+            
+            <div class="box7">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia itaque quia
+                nobis fugit amet adipisci, corrupti animi, iusto eius a sed totam voluptas
+                porro. Dolorem aliquid rerum magnam eligendi aspernatur.
+            </div>
+            <br />
+
+
+            <h2 class="h2_header-style">============ Псевдоэлемент-иконка. Псевдокласс :hover ============</h2>
+            
+                <ul class="list8">
+                    <li class="list-item8">
+                        <a href="" class="list-link8">Home</a>
+                    </li>
+                    <li class="list-item8">
+                        <a href="" class="list-link8">Portfolio</a>
+                    </li>
+                    <li class="list-item8">
+                        <a href="" class="list-link8">Team</a>
+                    </li>
+                    <li class="list-item8">
+                        <a href="" class="list-link8">About</a>
+                    </li>
+                </ul>
+            <br />
+
+
+            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+
+
+            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+
+
+            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+
+
+            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+
+
+            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+
+
+
+
+
+        
 
 
 
@@ -121,7 +390,6 @@
 
 
 
-    
         </section>
         <br/>
         <br/>

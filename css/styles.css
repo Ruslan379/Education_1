@@ -16,8 +16,8 @@ html {
     --color-font-footer: rgba(255, 255, 255, 0.6);
     /* =============================== */
     --color-background-main: #f5ebd7;
-    --color-background-team: #F5F4FA;
-    --color-background-footer: #2F303A;
+    --color-background-start: rgb(255, 219, 151);
+    --color-background-end: rgb(117, 79, 8);
     /* =============================== */
     --color-light: #FFFFFF;
     --color-dark: #000000;
@@ -295,7 +295,11 @@ td[colspan] {
                 6px 6px 6px rgba(255, 254, 254, 0.452);
         
     color: rgb(66, 46, 46);
-    background-color: #e6a51a;
+
+    background-image: linear-gradient(to bottom,
+                var(--color-background-start),
+                var(--color-background-end));
+    /* background-color: #e6a51a; */
     /* background-color: #ffeb3b; */
 
     /* outline: 2px solid tomato; */
@@ -316,7 +320,12 @@ td[colspan] {
     transform: scale(1.2);
 
     border: 3px solid rgb(255, 0, 0);
-    background-color: #1ac7e6;
+
+    background-image: linear-gradient(to bottom,
+                var(--color-background-start),
+                #1ac7e6);
+    /* background-color: #1ac7e6; */
+
     color: rgb(255, 0, 0);
     opacity: 0.5;
 
@@ -370,10 +379,13 @@ td[colspan] {
 
     /* text-align: center; */
 
-    /* background-color: rgb(240, 238, 157); */
+    background-color: rgb(255, 219, 151);
 
+    /* background-image: url(../img/Sunset_1.jpg); */
     background-image: url("https://picsum.photos/640/480");
+    /* background-image: url("https://cdn.pixabay.com/photo/2020/10/07/10/51/mountains-5634817_1280.jpg"); */
     /* background-image: url("https://cdn2.iconfinder.com/data/icons/avatars-60/5985/34-Father-512.png"); */
+    
     background-repeat:  no-repeat;
     background-position: 50% 50%;
     
@@ -381,6 +393,8 @@ td[colspan] {
     /* background-size: 1200px;  */
     /* background-size: contain; */
     background-size: cover;
+
+    background-attachment: fixed;
 
     /* opacity: 0.7; */
 }
@@ -421,8 +435,18 @@ td[colspan] {
 
     border: 2px solid var(--color-light);
     border-radius: 20%;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.452), 
-                6px 6px 6px rgba(255, 254, 254, 0.452);
+    
+    box-shadow: inset 0 0 30px 15px rgba(0, 0, 0, 0.3);
+
+    /* box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 
+                    0 12.5px 10px rgba(0, 0, 0, 0.06),
+                    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 
+                    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                    0 100px 80px rgba(0, 0, 0, 0.12); */
+
+    /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.452),
+        6px 6px 6px rgba(255, 254, 254, 0.452); */
 
 
     /* margin-left: auto; */

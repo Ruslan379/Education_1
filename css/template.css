@@ -6,18 +6,36 @@
 
     /* text-align: center; */
 
-    /* background-color: rgb(240, 238, 157); */
+    background-color: rgb(255, 219, 151);
 
-    background-image: url("https://picsum.photos/640/480");
+    /* background-image: url(../img/Sunset_1.jpg); */
+    /* background-image: url("https://picsum.photos/640/480"); */
+    background-image: url("https://cdn.pixabay.com/photo/2020/10/07/10/51/mountains-5634817_1280.jpg");
+
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+
+    /* background-position: 50% 50%; */
+    background-position: center;
 
     /* background-size: auto; */
-    background-size: 1200px;
+    /* background-size: 1100px; */
     /* background-size: contain; */
-    /* background-size: cover; */
+    background-size: cover;
+
+    background-attachment: fixed;
 
     /* opacity: 0.7; */
+
+
+    /* ++++++++++++++ из конспекта ++++++++++++++++ */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+
+    /*  Comment out this line  */
+    /* background-attachment: fixed; */
+    /* +++++++++++++++++++++++++++++++++++++++++++ */
+
 }
 
 /* ______________________  К О Н Е Ц ДЕКОРАТИВНЫЙ ФОН этой страницы module_№-№   ___________________ */
@@ -57,8 +75,18 @@
 
     border: 2px solid var(--color-light);
     border-radius: 20%;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.452),
-        6px 6px 6px rgba(255, 254, 254, 0.452);
+
+    /* box-shadow: inset 0 0 30px 15px rgba(0, 0, 0, 0.3); */
+
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+
+    /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.452),
+                6px 6px 6px rgba(255, 254, 254, 0.452); */
 
 
     /* margin-left: auto; */

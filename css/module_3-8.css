@@ -6,19 +6,9 @@
 
     /* text-align: center; */
 
-    /* background-color: var(--color-background-start); */
+    background-color: rgb(255, 219, 151);
 
-
-    
-    /* background-image: linear-gradient(to right,
-                #f44336 15%,
-                #09792b 40%,
-                #00b9ff 65%,
-                #ffb800); */
-    background-image: linear-gradient(to bottom left,
-                var(--color-background-start),
-                var(--color-background-end));
-    /* background-image: url(../img/Sunset_1.jpg); */
+    background-image: url(../img/Sunset_1.jpg);
     /* background-image: url("https://picsum.photos/640/480"); */
     /* background-image: url("https://cdn.pixabay.com/photo/2020/10/07/10/51/mountains-5634817_1280.jpg"); */
 
@@ -28,9 +18,9 @@
     background-position: center;
 
     /* background-size: auto; */
-    /* background-size: 1100px; */
+    background-size: 1100px;
     /* background-size: contain; */
-    background-size: cover;
+    /* background-size: cover; */
 
     background-attachment: fixed;
 
@@ -87,16 +77,16 @@
     border-radius: 20%;
 
     /* box-shadow: inset 0 0 30px 15px rgba(0, 0, 0, 0.3); */
-    
+
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-                0 6.7px 5.3px rgba(0, 0, 0, 0.048), 
-                0 12.5px 10px rgba(0, 0, 0, 0.06),
-                0 22.3px 17.9px rgba(0, 0, 0, 0.072), 
-                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-                0 100px 80px rgba(0, 0, 0, 0.12);
-    
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+
     /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.452),
-            6px 6px 6px rgba(255, 254, 254, 0.452); */
+                6px 6px 6px rgba(255, 254, 254, 0.452); */
 
 
     /* margin-left: auto; */
@@ -151,44 +141,9 @@
 
 
 
+/* ================= из К О Н С П Е К Т А -->  Модуль 2 - Занятие 3 ================= */
 
-
-
-
-
-
-/* ==================================== из К О Н С П Е К Т А ================================ */
-
-/* ============= Живой пример таблицы + CSS-разметка ============ */
-
-/* Shift the heading text to the left, by default it is centered */
-/* Сместите текст заголовка влево, по умолчанию он расположен по центру */
-table caption {
-    text-align: center;
-}
-
-/* We "collapse" the frames of adjacent cells */
-/* "Сворачиваем"рамки соседних ячеек */
-table {
-    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
-    margin: 3rem;
-    font-family: sans-serif;
-    border-collapse: collapse;
-}
-
-/* 
-  Add a border and padding to the cells, the distance from the content to the border.
-  To control the vertical position, the caption-side property is used.
-*/
-/* Добавьте к ячейкам границу и отступы, расстояние от содержимого до границы. 
-Для управления положением по вертикали используется свойство caption-side. */
-table th,
-table td {
-    padding: 10px;
-    border: 1px solid #2a2a2a;
-}
-
-/* ________________________________________________________________________________ */
+/* ================ Тег <pre> =============== */
 
 
 
@@ -197,24 +152,7 @@ table td {
 
 
 
-
-
-
-
-/* ============= Мод_2 Task_1. Задание 2/12 = CSS-разметка ============ */
-
-/* p {
-    color: red;
-    font-size: 20px;
-} */
-
-
-/* ============= Мод_2 Task_1. Задание 3/12 = CSS-разметка ============ */
-
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+/* _______________________________ F I N A L Конспект _______________________________ */
 
 
 
@@ -232,25 +170,25 @@ table td {
 
 
 
-/* ============= Мод_2 Task_2. Задание 1/12 ТЕКСТ: TEXT-INDENT = CSS-разметка ============ */
-
-/* p {
-    text-indent: 40px;
-} */
 
 
 
 
 
 
-/* ========================== Тег <pre> ========================== */
-pre {
-    font: inherit;
-}
+
+
+
+/* ============== из А В Т О П Р О В Е Р К И --> Модуль 2 - Занятие 3 ============== */
+
+/* ==== стиль текста ОТВЕТ HTML ==== */
 
 
 
 
 
 
-/* ==================    ==================== */
+
+
+
+/* _____________________________ F I N A L   Автопроверки ___________________________ */
