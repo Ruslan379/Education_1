@@ -411,8 +411,9 @@ td[colspan] {
     height: 300px;
 
     position: fixed;
-    left: 30px;
     top: 10px;
+    left: 30px;
+    
     /* right: 40px; */
 
     /* margin-top: 20px; ---- */
