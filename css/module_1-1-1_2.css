@@ -54,7 +54,7 @@
 
 /* ================= Стилизаци LOGO в этой страницы module_№-№ (section-main-page) ================= */
 /* ================ Сдвиг LOGO вправо этой страницы module_№-№ (section-main-page) ================ */
-.logo-main-page {
+.logo-main-page1 {
     display: flex;
 
     width: 300px;
@@ -77,7 +77,7 @@
     /* outline: 2px solid tomato; */
 }
 
-.logo-main-page img {
+.logo-main-page1 img {
     /* display: block; */
     height: 90%;
     width: 90%;
@@ -112,7 +112,7 @@
 }
 
 
-.logo-main-page img:hover,
+.logo-main-page1 img:hover,
 .logo-main-page img:focus {
 
     border: 3px solid rgb(255, 0, 0);
@@ -128,7 +128,7 @@
     transition-duration: 1500ms;
 }
 
-.logo-main-page img:active {
+.logo-main-page1 img:active {
     transform: scale(1.1);
     transition-duration: 200ms;
 
@@ -137,11 +137,12 @@
     color: rgb(38, 78, 5);
 }
 
-/* .page {
+.logo-main.page {
     position: fixed;
     top: 10px;
+    left: unset;
     right: 40px
-} */
+}
 /* __________________  К О Н Е Ц ССдвиг LOGO вправо этой страницы module_№-№ _______________ */
 
 
