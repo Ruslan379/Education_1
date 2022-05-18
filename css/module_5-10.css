@@ -54,89 +54,6 @@
 
 /* ================= Стилизаци LOGO в этой страницы module_№-№ (section-main-page) ================= */
 /* ================ Сдвиг LOGO вправо этой страницы module_№-№ (section-main-page) ================ */
-.logo-main-page1 {
-    display: flex;
-
-    width: 300px;
-    height: 300px;
-
-    position: fixed;
-    top: 10px;
-    right: 40px;
-    /* left: 30px; */
-
-    /* margin-top: 20px; ---- */
-    /* margin-left: 30px; */
-
-    justify-content: flex-end;
-    align-items: flex-end;
-
-    /* padding: 0.5em; */
-    /* padding-left: 50%; */
-
-    /* outline: 2px solid tomato; */
-}
-
-.logo-main-page1 img {
-    /* display: block; */
-    height: 90%;
-    width: 90%;
-    padding: 14%;
-
-    border: 2px solid var(--color-light);
-    border-radius: 20%;
-
-    /* box-shadow: inset 0 0 30px 15px rgba(0, 0, 0, 0.3); */
-
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-        0 12.5px 10px rgba(0, 0, 0, 0.06),
-        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-        0 100px 80px rgba(0, 0, 0, 0.12);
-
-    /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.452),
-            6px 6px 6px rgba(255, 254, 254, 0.452); */
-
-
-    /* margin-left: auto; */
-
-    /* object-fit: contain; */
-    /* object-fit: cover; */
-    /* object-fit: scale-down; */
-    /* object-fit: none; */
-
-    /* object-position: left bottom; */
-
-    /* outline: 2px solid rgb(25, 0, 255); */
-}
-
-
-.logo-main-page1 img:hover,
-.logo-main-page img:focus {
-
-    border: 3px solid rgb(255, 0, 0);
-    background-color: #1ac7e6;
-    color: rgb(255, 0, 0);
-
-    opacity: 0.5;
-
-    /* transform: scale(1.1); */
-    transform: rotate(360deg);
-
-    /* transition: scale 500ms linear, transform 500ms ease-in-out 500ms; */
-    transition-duration: 1500ms;
-}
-
-.logo-main-page1 img:active {
-    transform: scale(1.1);
-    transition-duration: 200ms;
-
-    border: 3px solid rgb(29, 90, 10);
-    background-color: #5be61a;
-    color: rgb(38, 78, 5);
-}
-
 .logo-main.page {
     position: fixed;
     top: 10px;
@@ -147,15 +64,179 @@
 /* __________________  К О Н Е Ц ССдвиг LOGO вправо этой страницы module_№-№ _______________ */
 
 
+
+
+
+
+
+
+
+
+
 /* ________________________________________________________________________________________ */
 
 
 
 
 
-/* ================= из К О Н С П Е К Т А -->  Модуль 2 - Занятие 3 ================= */
+/* ================= из К О Н С П Е К Т А -->  ================= */
 
-/* ================ Тег <pre> =============== */
+/* ================ CSS-переходы =============== */
+.box1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: tomato;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    /*  Задаём значения перехода  */
+    transition-property: background-color, transform;
+    transition-duration: 1000ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+/* При ховере меняем значения анимируемых свойств */
+.box1:hover {
+    background-color: teal;
+    transform: rotate(180deg);
+}
+
+/* ================ Свойство transition-property =============== */
+.box2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    border-radius: 10px;
+    background-color: teal;
+    transition-property: background-color;
+    transition-duration: 2000ms;
+}
+
+.box2:hover {
+    background-color: orange;
+}
+
+/* ================ Свойство transition-property =============== */
+.flex-container3 {
+    border: 2px dashed #2a2a2a;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+}
+
+.circle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    transition-property: transform;
+}
+
+.flex-container3:hover .circle3 {
+    transform: scale(1.5);
+}
+
+.circle3:nth-child(1) {
+    background-color: orange;
+
+    transition-duration: 500ms;
+}
+
+.circle3:nth-child(2) {
+    background-color: #03a9f4;
+
+    transition-duration: 1500ms;
+}
+
+.circle3:nth-child(3) {
+    background-color: palevioletred;
+
+    transition-duration: 3000ms;
+}
+
+
+/* ================ Свойство transition-timing-function =============== */
+.container4 {
+    border: 2px dashed #2a2a2a;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.circle4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    transform: translatex(0);
+    transition-property: transform;
+    transition-duration: 2000ms;
+    transition-delay: 500ms;
+}
+
+.circle4:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.container4:hover .circle4 {
+    transform: translatex(calc(100vw - 86px));
+}
+
+.circle4:nth-child(1) {
+    background-color: #f44336;
+    transition-timing-function: linear;
+}
+
+.circle4:nth-child(2) {
+    background-color: #3f51b5;
+    transition-timing-function: ease;
+}
+
+.circle4:nth-child(3) {
+    background-color: #00bcd4;
+    transition-timing-function: ease-in;
+}
+
+.circle4:nth-child(4) {
+    background-color: #30a734;
+    transition-timing-function: ease-out;
+}
+
+.circle4:nth-child(5) {
+    background-color: #ffeb3b;
+    transition-timing-function: ease-in-out;
+}
+
+.circle4:nth-child(6) {
+    background-color: #e91e63;
+    transition-timing-function: cubic-bezier(0.39, 1.03, 0.82, 0.08);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
