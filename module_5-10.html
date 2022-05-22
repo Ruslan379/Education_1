@@ -123,30 +123,628 @@
             <br />
 
 
-            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form name="signup_form" autocomplete="on" novalidate>
+                <label>
+                    Email+
+                    <input type="email" name="email" />
+                </label>
+            
+                <label>
+                    Password!
+                    <input type="password" name="password" />
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+
+
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <label for="user_email">Email</label>
+                <input type="email" name="email" id="user_email" />
+            
+                <label for="user_password">Password</label>
+                <input type="password" name="password" id="user_password" />
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <input type="text" name="username" />
+            <br />
+            
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <label>
+                    Username
+                    <input type="text" name="username" autofocus />
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="email" placeholder="Jacob Mercer"  />
+                </label>
+                <label>
+                    Password
+                    <input type="password" name="password" minlength="5" maxlength="12" />
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <p>Choose a color:</p>
+                <label>Red
+                    <input type="radio" name="color" value="red" />
+                    
+                </label>
+                <label>White
+                    <input type="radio" name="color" value="white" checked />
+                    
+                </label>
+                <label>Green
+                    <input type="radio" name="color" value="green" />
+                    
+                </label>
+            </form>
+            <br />
+
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <p>What are your hobbies?</p>
+                <label>
+                    <input type="checkbox" name="hobby" value="music" checked />
+                    Music
+                </label>
+                <label>
+                    <input type="checkbox" name="hobby" value="sports" checked />
+                    Sports
+                </label>
+                <label>
+                    <input type="checkbox" name="hobby" value="reading" />
+                    Reading
+                </label>
+            </form>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <label>
+                Age
+                <input type="number" name="age" value="0" min="18" max="120" />
+            </label>
+            <br />
+            
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <label>
+                Weight with 0.1 step value:
+                <input type="number" name="weight" min="0" max="150" step="0.1" value="0" />
+            </label>
+            
+            <label>
+                Height with 0.4 step value:
+                <input type="number" name="height" min="0" max="200" step="0.4" value="0" />
+            </label>
+            <br />
+            
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <label>
+                    Phone number
+                    <input type="tel" name="phone_number" />
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <label>
+                Interest rate:
+                <input type="range" name="interest_rate" value="40" min="0" max="100" step="20" />
+            </label>
+            
+            <p>Selected value: <span class="js-selected-value">40</span></p>
+            <br />
+            
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <label>
+                    Date
+                    <input type="date" min="1920-01-01" max="2020-01-01" />
+                </label>
+            
+                <label>
+                    Time
+                    <input type="time" />
+                </label>
+            
+                <label>
+                    Date and time
+                    <input type="datetime-local" min="1920-01-01T00:00" max="2020-01-01T00:00" />
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <label>
+                    Email
+                    <input type="email" name="email" placeholder="example@mail.com">
+                </label>
+                <label>
+                    Feedback
+                    <textarea name="feedback" rows="5" placeholder="Type your message here..."></textarea>
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <label for="size">Size</label>
+            <select id="size" name="size">
+                <option value="xs">Extra Small</option>
+                <option value="s">Small</option>
+                <option value="m" selected>Medium</option>
+                <option value="l">Large</option>
+            </select>
+            <br />
+            
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <label>
+                Size
+                <select name="size">
+                    <option value="xs">Extra Small</option>
+                    <option value="s">Small</option>
+                    <option value="m" selected>Medium</option>
+                    <option value="l">Large</option>
+                </select>
+            </label>
+            <br />
+
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <label for="month">Month</label>
+            <select name="month" id="month">
+                <optgroup label="Summer">
+                    <option value="s6">June</option>
+                    <option value="s7">July</option>
+                    <option value="s8">August</option>
+                </optgroup>
+            
+                <optgroup label="Autumn">
+                    <option value="s9">September</option>
+                    <option value="s10">October</option>
+                    <option value="s11">November</option>
+                </optgroup>
+            </select>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <label for="fav">Choose your favourite browser</label>
+            <input list="browsers" name="fav" id="fav" />
+            
+            <datalist id="browsers">
+                <option>Edge</option>
+                <option>Firefox</option>
+                <option>Chrome</option>
+                <option>Opera</option>
+                <option>Safari</option>
+            </datalist>
+            <br />
+            
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <label for="state">Choose your state</label>
+            <input type="text" name="state" id="state" list="states" />
+            <datalist id="states">
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+            </datalist>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <fieldset>
+                    <legend>Enter your contact details</legend>
+                    <label>
+                        Name
+                        <input type="text" name="username" />
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" />
+                    </label>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>Your favourite programming language</legend>
+                    <label>
+                        <input type="checkbox" name="language" value="python">
+                        Python
+                    </label>
+                    <label>
+                        <input type="checkbox" name="language" value="js">
+                        JavaScript
+                    </label>
+                    <label>
+                        <input type="checkbox" name="language" value="ruby">
+                        Ruby
+                    </label>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>I want to receive</legend>
+                    <label>
+                        <input type="checkbox" name="newsletter" value="weekly">
+                        The weekly newsletter
+                    </label>
+                    <label>
+                        <input type="checkbox" name="newsletter" value="company_offers">
+                        Offers from the company
+                    </label>
+                    <label>
+                        <input type="checkbox" name="newsletter" value="associated_offers">
+                        Offers from associated companies
+                    </label>
+                </fieldset>
+            
+                <button type="submit">Subscribe</button>
+            </form>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form class="form">
+                <div class="form-group" role="group" aria-labelledby="contact-details-head">
+                    <p id="contact-details-head">Enter your contact details</p>
+                    <label>
+                        Name
+                        <input type="text" name="username" />
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" />
+                    </label>
+                </div>
+            
+                <div class="form-group" role="group" aria-labelledby="language-head">
+                    <p id="language-head">Your favourite programming language</p>
+                    <label>
+                        <input type="checkbox" name="language" value="python">
+                        Python
+                    </label>
+                    <label>
+                        <input type="checkbox" name="language" value="js">
+                        JavaScript
+                    </label>
+                    <label>
+                        <input type="checkbox" name="language" value="ruby">
+                        Ruby
+                    </label>
+                </div>
+            
+                <div class="form-group" role="group" aria-labelledby="newsletter-head">
+                    <p id="newsletter-head">I want to receive</p>
+                    <label>
+                        <input type="checkbox" name="newsletter" value="weekly">
+                        The weekly newsletter
+                    </label>
+                    <label>
+                        <input type="checkbox" name="newsletter" value="company_offers">
+                        Offers from the company
+                    </label>
+                    <label>
+                        <input type="checkbox" name="newsletter" value="associated_offers">
+                        Offers from associated companies
+                    </label>
+                </div>
+            
+                <button type="submit">Subscribe</button>
+            </form>
+            <br />
+            
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <label>
+                    Email
+                    <input type="email" name="email" required />
+                </label>
+                <label>
+                    Password
+                    <input type="password" name="password" required />
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <label>
+                    Username
+                    <input type="text" name="username" required minlength="3" />
+                </label>
+                <label>
+                    Password
+                    <input type="password" name="password" required minlength="6" maxlength="12" />
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <label>
+                    How many pizzas do you want to order?
+                    <input type="number" name="amount" required min="1" max="10" />
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form>
+                <label>
+                    Username
+                    <input type="text" name="text" required pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+                        title="Username must be two words separated by space." />
+                </label>
+                <label>
+                    Password
+                    <input type="password" name="password" required minlength="6" maxlength="12"
+                        pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"
+                        title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." />
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <button class="btn">Active button</button>
+            <button class="btn" disabled>Disabled button</button>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form class="form">
+                <div role="group" class="form-group">
+                    <b class="form-caption">What are your hobbies?</b>
+            
+                    <div class="form-field">
+                        <input type="checkbox" class="form-input" name="hobby" value="sports" id="sports">
+                        <label class="form-label" for="sports">Sports</label>
+                    </div>
+            
+                    <div class="form-field">
+                        <input type="checkbox" class="form-input" name="hobby" value="music" id="music">
+                        <label class="form-label" for="music">Music</label>
+                    </div>
+            
+                    <div class="form-field">
+                        <input type="checkbox" class="form-input" name="hobby" value="books" id="books">
+                        <label class="form-label" for="books">Books</label>
+                    </div>
+                </div>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form class="form">
+                <div class="form-field">
+                    <label for="amount-1" class="form-label">How many pizzas do you want to order?</label>
+                    <input type="number" required min="1" max="10" step="1" value="0" name="amount-1" id="amount-1"
+                        class="form-input">
+                </div>
+                <div class="form-field">
+                    <label for="amount-2" class="form-label">How many pizzas do you want to order?</label>
+                    <input type="number" required min="1" max="10" step="1" value="3" name="amount-2" id="amount-2"
+                        class="form-input">
+                </div>
+                <div class="form-field">
+                    <label for="amount-3" class="form-label">How many pizzas do you want to order?</label>
+                    <input type="number" required min="1" max="10" step="1" name="amount-3" id="amount-3" class="form-input">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            HTML CSSResult Skip Results Iframe
+            EDIT ON
+            <form class="form">
+                <label class="form-label">
+                    <span class="label-text">Username (optional)</span>
+                    <input type="text" class="form-input" name="username">
+                </label>
+            
+                <label class="form-label">
+                    <span class="label-text">Email (required)</span>
+                    <input type="email" class="form-input" name="mail" required>
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form class="form">
+                <label class="form-label">
+                    <span class="label-text">Username</span>
+                    <input type="text" class="form-input" name="username" required minlength="3">
+                </label>
+            
+                <label class="form-label">
+                    <span class="label-text">Email</span>
+                    <input type="email" class="form-input" name="mail" required>
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form class="form">
+                <label class="form-label">
+                    <span class="label-text">Username</span>
+                    <input type="text" class="form-input" name="username" placeholder="Jacob Mercer">
+                </label>
+            
+                <label class="form-label">
+                    <span class="label-text">Email</span>
+                    <input type="email" class="form-input" name="mail" placeholder="jacob@mail.com">
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <form class="form">
+                <label class="form-label">
+                    <span class="label-text">Username</span>
+                    <input type="text" class="form-input" name="username" placeholder="Jacob Mercer" minlength="3" required>
+                </label>
+            
+                <label class="form-label">
+                    <span class="label-text">Email</span>
+                    <input type="email" class="form-input" name="mail" placeholder="jacob@mail.com" required>
+                </label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <br />
+            <!-- ========================================================================= -->
+
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
             
             <!-- <div class="canvas4"></div> -->
             <br />
 
-
-            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
-            
-            <!-- <div class="canvas4"></div> -->
-            <br />
-
-            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
             
             <!-- <div class="canvas4"></div> -->
             <br />
             
-            
-            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
             
             <!-- <div class="canvas4"></div> -->
             <br />
             
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
             
-            <h2 class="h2_header-style">============ Многослойный фон ============</h2>
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
+            
+            <!-- <div class="canvas4"></div> -->
+            <br />
+            
+            <h2 class="h2_header-style">==========++++++++++++++++++++==========</h2>
             
             <!-- <div class="canvas4"></div> -->
             <br />
@@ -231,7 +829,7 @@
     <footer>
         <!-- ======== ЛОГОТИП ФУТЕРА (logo-footers) ======= -->
         <div class="logo-footers">
-            <a href="./module_3-8.html">
+            <a href="./module_5-10.html">
                 <img src="./img/Logo_0.png" 
                 alt="Мой логотип" 
                 width="70" /><br />
