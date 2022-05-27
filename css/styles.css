@@ -9,26 +9,7 @@ html {
     box-sizing: inherit;
 }
 
-:root {
-    /* ============ ПЕРЕМЕННЫЕ ЦВЕТА ============ */
-    --color-font-main: #360000;
-    --color-font-secondary: #2a2a2a;
-    --color-font-footer: rgba(255, 255, 255, 0.6);
-    /* =============================== */
-    --color-background-main: #f5ebd7;
-    --color-background-start: rgb(255, 219, 151);
-    --color-background-end: rgb(117, 79, 8);
-    /* =============================== */
-    --color-light: #FFFFFF;
-    --color-dark: #000000;
-    /* =============================== */
-    --color-border-line: #ECECEC;
-    --color-borders-portfolio: #EEEEEE;
-    /* =============================== */
-    --color-logo-links-hover: #2196F3;
-    --color-button-hover: #188CE8;
-    /* ========================================== */
-}
+
 /* ============================================================================== */
 
 body {
@@ -52,24 +33,10 @@ body {
 /* ============================== К О Н Т Е Й Н Е Р Ы ============================== */
 
 /* ==================== Контейнер (container-main) ==================== */
-.container-main {
-    width: 1200px;
 
-    margin-left: auto;
-    margin-right: auto;
+ /* +++++++++++++ уже в _container.scss ++++++++++++++++++++++++++++ */
 
-    padding-left: 15px;
-    padding-right: 15px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    /* opacity: 0.5; */
-
-    /* УБРАТЬ */
-    /* outline: 2px solid tomato;  */
-    /* background-color: tomato; */
-}
 
 
 /* _____________________________  К О Н Е Ц Контейнеры _____________________________ */
