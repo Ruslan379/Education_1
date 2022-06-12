@@ -577,6 +577,23 @@ button:hover,
 button:focus {
     background-color: #1976d2;
 }
+/* ____________________________________________ */
+.problems {
+    color: tomato;
+}
+
+.problems p {
+    color: currentColor;
+}
+
+.programs {
+    color: darkblue;
+}
+
+.programs p {
+    color: currentColor;
+}
+
 
 /* =========================================================== */
 /* =========================================================== */
